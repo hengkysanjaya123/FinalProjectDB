@@ -39,7 +39,7 @@ namespace FinalProjectDB
                 MySqlConnection connection = conn.OpenConnection();
                 connection.Open();
                 MySqlCommand insertBank = connection.CreateCommand();
-                insertBank.CommandText = "INSERT INTO Bank(Name) VALUES (@bankname)";
+                insertBank.CommandText = "INSERT INTO bank(Name) VALUES (@bankname)";
                 insertBank.Parameters.AddWithValue("@bankname", bankName);
                 insertBank.ExecuteNonQuery();
                 MessageBox.Show("Data Inserted Successfully!");
