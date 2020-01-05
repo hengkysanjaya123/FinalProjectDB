@@ -1,6 +1,6 @@
 ﻿namespace FinalProjectDB
 {
-    partial class Form1
+    partial class mainMenu
     {
         /// <summary>
         /// Required designer variable.
@@ -28,36 +28,35 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
+            this.bankControlButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // button1
+            // bankControlButton
             // 
-            this.button1.Location = new System.Drawing.Point(11, 11);
-            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(126, 69);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Don\'t Click Here";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.bankControlButton.Location = new System.Drawing.Point(54, 82);
+            this.bankControlButton.Name = "bankControlButton";
+            this.bankControlButton.Size = new System.Drawing.Size(208, 34);
+            this.bankControlButton.TabIndex = 0;
+            this.bankControlButton.Text = "Bank Control";
+            this.bankControlButton.UseVisualStyleBackColor = true;
+            this.bankControlButton.Click += new System.EventHandler(this.button1_Click);
             // 
-            // Form1
+            // mainMenu
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(533, 292);
-            this.Controls.Add(this.button1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.ClientSize = new System.Drawing.Size(800, 449);
+            this.Controls.Add(this.bankControlButton);
+            this.Name = "mainMenu";
+            this.Text = "HR Management System";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button bankControlButton;
     }
 }
 

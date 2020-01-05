@@ -10,16 +10,23 @@ using System.Windows.Forms;
 
 namespace FinalProjectDB
 {
-    public partial class Form1 : Form
+    public partial class mainMenu : Form
     {
-        public Form1()
+        public mainMenu()
         {
             InitializeComponent();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Don't click here");
+            BankControl bankControl = new BankControl();
+            bankControl.ShowDialog();
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

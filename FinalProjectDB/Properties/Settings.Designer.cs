@@ -22,5 +22,15 @@ namespace FinalProjectDB.Properties {
                 return defaultInstance;
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("server=localhost;user id=root;database=fp_db_nrhr")]
+        public string fp_db_nrhrConnectionString {
+            get {
+                return ((string)(this["fp_db_nrhrConnectionString"]));
+            }
+        }
     }
 }
