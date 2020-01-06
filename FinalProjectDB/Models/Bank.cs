@@ -6,16 +6,15 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
 namespace FinalProjectDB
 {
     class Bank
     {
         DBConnection conn = new DBConnection();
-        private string bankName;
-        private int id;
 
-        public string BankName { get => bankName; set => bankName = value; }
-        public int Id { get => id; set => id = value; }
+        public int Id { get; set; }
+        public string BankName { get; set; }
 
         public Bank()
         {
@@ -23,12 +22,12 @@ namespace FinalProjectDB
         }
         public Bank(int id, string bankname)
         {
-            this.id = id;
-            this.bankName = bankname;
+            this.Id = id;
+            this.BankName = bankname;
         }
         public Bank(string bankName)
         {
-            this.bankName = bankName;
+            this.BankName = bankName;
         }
 
 
@@ -40,7 +39,7 @@ namespace FinalProjectDB
                 connection.Open();
                 MySqlCommand insertBank = connection.CreateCommand();
                 insertBank.CommandText = "INSERT INTO bank(Name) VALUES (@bankname)";
-                insertBank.Parameters.AddWithValue("@bankname", bankName);
+                insertBank.Parameters.AddWithValue("@bankname", BankName);
                 insertBank.ExecuteNonQuery();
                 MessageBox.Show("Data Inserted Successfully!");
                 connection.Close();
@@ -79,12 +78,43 @@ namespace FinalProjectDB
 
         public void UpdateBank()
         {
+            try
+            {
+                MySqlConnection connection = conn.OpenConnection();
+                connection.Open();
+                MySqlCommand insertDepartment = connection.CreateCommand();
+                insertDepartment.CommandText = "UPDATE bank SET Name = @name WHERE ID = @id";
+                insertDepartment.Parameters.AddWithValue("@name", BankName);
+                insertDepartment.Parameters.AddWithValue("@id", Id);
+                insertDepartment.ExecuteNonQuery();
+                MessageBox.Show("Data Updated Successfully!");
+                connection.Close();
+            }
+            catch (MySqlException ex)
+            {
+                MessageBox.Show("Error:", ex.Message);
+            }
+
 
         }
 
-        public void RemoveBank()
+        public void DeleteBank(int id)
         {
-
+            try
+            {
+                MySqlConnection connection = conn.OpenConnection();
+                connection.Open();
+                MySqlCommand comd = connection.CreateCommand();
+                comd.CommandText = "DELETE FROM bank WHERE ID = @id";
+                comd.Parameters.AddWithValue("@id", id);
+                comd.ExecuteNonQuery();
+                MessageBox.Show("Data Deleted Successfully!");
+                connection.Close();
+            }
+            catch (MySqlException ex)
+            {
+                MessageBox.Show("Error:", ex.Message);
+            }
         }
 
     }

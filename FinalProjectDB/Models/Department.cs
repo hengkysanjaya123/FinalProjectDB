@@ -65,9 +65,9 @@ namespace FinalProjectDB
                 MessageBox.Show("Data Updated Successfully!");
                 connection.Close();
             }
-            catch (Exception ex)
+            catch (MySqlException ex)
             {
-                MessageBox.Show("Error:", ex.ToString());
+                MessageBox.Show("Error:", ex.Message);
             }
 
         }
@@ -85,9 +85,9 @@ namespace FinalProjectDB
                 MessageBox.Show("Data Deleted Successfully!");
                 connection.Close();
             }
-            catch (Exception ex)
+            catch (MySqlException ex)
             {
-                MessageBox.Show("Error:", ex.ToString());
+                MessageBox.Show("Error:", ex.Message);
             }
 
         }

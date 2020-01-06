@@ -67,6 +67,30 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BankControl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BankControl.Designer.cs">
+      <DependentUpon>BankControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BankForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BankForm.Designer.cs">
+      <DependentUpon>BankForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BranchForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BranchForm.Designer.cs">
+      <DependentUpon>BranchForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ContractTypeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ContractTypeForm.Designer.cs">
+      <DependentUpon>ContractTypeForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="DepartmentForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -80,12 +104,6 @@
       <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Models\Bank.cs" />
-    <Compile Include="BankControl.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="BankControl.Designer.cs">
-      <DependentUpon>BankControl.cs</DependentUpon>
-    </Compile>
     <Compile Include="Models\Branch.cs" />
     <Compile Include="Models\ContractType.cs" />
     <Compile Include="core.cs">
@@ -97,6 +115,8 @@
     <Compile Include="Models\Department.cs" />
     <Compile Include="Models\Employee.cs" />
     <Compile Include="DBConnection.cs" />
+    <Compile Include="Models\EmployeeEmail.cs" />
+    <Compile Include="Models\EmployeePhone.cs" />
     <Compile Include="Models\Level.cs" />
     <Compile Include="Models\Pos.cs" />
     <Compile Include="Program.cs" />
@@ -108,9 +128,6 @@
     <Compile Include="RegisterNewEmployeeForm.Designer.cs">
       <DependentUpon>RegisterNewEmployeeForm.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="BankControl.resx">
-      <DependentUpon>BankControl.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="core.resx">
       <DependentUpon>core.cs</DependentUpon>
     </EmbeddedResource>

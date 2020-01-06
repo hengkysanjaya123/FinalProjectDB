@@ -98,12 +98,14 @@
             this.branchToolStripMenuItem.Name = "branchToolStripMenuItem";
             this.branchToolStripMenuItem.Size = new System.Drawing.Size(161, 22);
             this.branchToolStripMenuItem.Text = "Branch";
+            this.branchToolStripMenuItem.Click += new System.EventHandler(this.branchToolStripMenuItem_Click);
             // 
             // contractTypeToolStripMenuItem
             // 
             this.contractTypeToolStripMenuItem.Name = "contractTypeToolStripMenuItem";
             this.contractTypeToolStripMenuItem.Size = new System.Drawing.Size(161, 22);
             this.contractTypeToolStripMenuItem.Text = "Contract Type";
+            this.contractTypeToolStripMenuItem.Click += new System.EventHandler(this.contractTypeToolStripMenuItem_Click);
             // 
             // departmentToolStripMenuItem
             // 

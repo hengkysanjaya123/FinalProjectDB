@@ -17,11 +17,6 @@ namespace FinalProjectDB
             InitializeComponent();
         }
 
-        private void bankToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            OpenForm(new BankControl());
-        }
-
         public void OpenForm(Form form)
         {
             form.MdiParent = this;
@@ -29,10 +24,27 @@ namespace FinalProjectDB
             form.Show();
         }
 
+        private void bankToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            OpenForm(new BankForm());
+        }
+
+        private void branchToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            OpenForm(new BranchForm());
+        }
+
+        private void contractTypeToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            OpenForm(new ContractTypeForm());
+        }
+
         private void departmentToolStripMenuItem_Click(object sender, EventArgs e)
         {
             OpenForm(new DepartmentForm());
         }
+
+
 
         private void registerNewEmployeeToolStripMenuItem_Click(object sender, EventArgs e)
         {

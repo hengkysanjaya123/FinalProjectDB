@@ -11,11 +11,9 @@ namespace FinalProjectDB
     class TransactionType
     {
         private DBConnection conn = new DBConnection();
-        private int id;
-        private string transactionTypeName;
 
-        public int Id { get => id; set => id = value; }
-        public string TransactionName { get => transactionTypeName; set => transactionTypeName = value; }
+        public int Id { get; set; }
+        public string TransactionTypeName { get; set; }
 
         public TransactionType()
         {
@@ -23,13 +21,13 @@ namespace FinalProjectDB
 
         public TransactionType(string transactionName)
         {
-            this.transactionTypeName = transactionName;
+            this.TransactionTypeName = transactionName;
         }
 
         public TransactionType(int id, string transactionName)
         {
-            this.id = id;
-            this.transactionTypeName = transactionName;
+            this.Id = id;
+            this.TransactionTypeName = transactionName;
         }
 
         public void AddTransactionType()
@@ -40,7 +38,7 @@ namespace FinalProjectDB
                 connection.Open();
                 MySqlCommand insertTransactionType = connection.CreateCommand();
                 insertTransactionType.CommandText = "INSERT INTO transactiontype(Name) VALUES (@transactionname)";
-                insertTransactionType.Parameters.AddWithValue("@transactionname", transactionTypeName);
+                insertTransactionType.Parameters.AddWithValue("@transactionname", TransactionTypeName);
                 insertTransactionType.ExecuteNonQuery();
                 MessageBox.Show("Data Inserted Successfully!");
                 connection.Close();
@@ -75,6 +73,46 @@ namespace FinalProjectDB
                 MessageBox.Show("Error:", ex.Message);
                 return null;
             }
+        }
+        public void UpdateTransactionType()
+        {
+            try
+            {
+                MySqlConnection connection = conn.OpenConnection();
+                connection.Open();
+                MySqlCommand insertDepartment = connection.CreateCommand();
+                insertDepartment.CommandText = "UPDATE transactiontype SET Name = @name WHERE ID = @id";
+                insertDepartment.Parameters.AddWithValue("@name", TransactionTypeName);
+                insertDepartment.Parameters.AddWithValue("@id", Id);
+                insertDepartment.ExecuteNonQuery();
+                MessageBox.Show("Data Updated Successfully!");
+                connection.Close();
+            }
+            catch (MySqlException ex)
+            {
+                MessageBox.Show("Error:", ex.Message);
+            }
+
+        }
+
+        public void DeleteTransactionType(int id)
+        {
+            try
+            {
+                MySqlConnection connection = conn.OpenConnection();
+                connection.Open();
+                MySqlCommand comd = connection.CreateCommand();
+                comd.CommandText = "DELETE FROM transactiontype WHERE ID = @id";
+                comd.Parameters.AddWithValue("@id", id);
+                comd.ExecuteNonQuery();
+                MessageBox.Show("Data Deleted Successfully!");
+                connection.Close();
+            }
+            catch (MySqlException ex)
+            {
+                MessageBox.Show("Error:", ex.Message);
+            }
+
         }
     }
 }

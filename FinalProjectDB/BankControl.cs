@@ -31,7 +31,7 @@ namespace FinalProjectDB
                     string bankName = bank.BankName;
                     string[] row = new string[] { id, bankName };
                     banksList.Rows.Add(row);
-               
+
                 }
             }
         }

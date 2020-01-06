@@ -11,11 +11,8 @@ namespace FinalProjectDB
     class Branch
     {
         private DBConnection conn = new DBConnection();
-        private int id;
-        private string branchName;
-
-        public int Id { get => id; set => id = value; }
-        public string BranchName { get => branchName; set => branchName = value; }
+        public int Id { get; set; }
+        public string BranchName { get; set; }
 
         public Branch()
         {
@@ -23,13 +20,13 @@ namespace FinalProjectDB
 
         public Branch(string branchName)
         {
-            this.branchName = branchName;
+            this.BranchName = branchName;
         }
 
         public Branch(int id, string branchName)
         {
-            this.id = id;
-            this.branchName = branchName;
+            this.Id = id;
+            this.BranchName = branchName;
         }
 
         public void AddBranch()
@@ -40,7 +37,7 @@ namespace FinalProjectDB
                 connection.Open();
                 MySqlCommand insertBranch = connection.CreateCommand();
                 insertBranch.CommandText = "INSERT INTO branch(Name) VALUES (@branchname)";
-                insertBranch.Parameters.AddWithValue("@branchname", branchName);
+                insertBranch.Parameters.AddWithValue("@branchname", BranchName);
                 insertBranch.ExecuteNonQuery();
                 MessageBox.Show("Data Inserted Successfully!");
                 connection.Close();
@@ -76,6 +73,47 @@ namespace FinalProjectDB
                 MessageBox.Show("Error:", ex.Message);
                 return null;
             }
+        }
+
+        public void UpdateBranch()
+        {
+            try
+            {
+                MySqlConnection connection = conn.OpenConnection();
+                connection.Open();
+                MySqlCommand insertDepartment = connection.CreateCommand();
+                insertDepartment.CommandText = "UPDATE branch SET Name = @name WHERE ID = @id";
+                insertDepartment.Parameters.AddWithValue("@name", BranchName);
+                insertDepartment.Parameters.AddWithValue("@id", Id);
+                insertDepartment.ExecuteNonQuery();
+                MessageBox.Show("Data Updated Successfully!");
+                connection.Close();
+            }
+            catch (MySqlException ex)
+            {
+                MessageBox.Show("Error:", ex.Message);
+            }
+
+        }
+
+        public void DeleteBranch(int id)
+        {
+            try
+            {
+                MySqlConnection connection = conn.OpenConnection();
+                connection.Open();
+                MySqlCommand comd = connection.CreateCommand();
+                comd.CommandText = "DELETE FROM branch WHERE ID = @id";
+                comd.Parameters.AddWithValue("@id", id);
+                comd.ExecuteNonQuery();
+                MessageBox.Show("Data Deleted Successfully!");
+                connection.Close();
+            }
+            catch (MySqlException ex)
+            {
+                MessageBox.Show("Error:", ex.Message);
+            }
+
         }
     }
 }

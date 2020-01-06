@@ -117,8 +117,6 @@ C:\Users\Ryan\Desktop\Ryan's Folder\Binus International\Semester 3\Database Syst
 C:\Users\Ryan\Desktop\Ryan's Folder\Binus International\Semester 3\Database System\DB Lec Final Project\FinalProjectDB\FinalProjectDB\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\Users\Ryan\Desktop\Ryan's Folder\Binus International\Semester 3\Database System\DB Lec Final Project\FinalProjectDB\FinalProjectDB\obj\Debug\FinalProjectDB.exe.config
 C:\Users\Ryan\Desktop\Ryan's Folder\Binus International\Semester 3\Database System\DB Lec Final Project\FinalProjectDB\FinalProjectDB\obj\Debug\FinalProjectDB.csproj.CopyComplete
-C:\Users\Ryan\Desktop\Ryan's Folder\Binus International\Semester 3\Database System\DB Lec Final Project\FinalProjectDB\FinalProjectDB\obj\Debug\FinalProjectDB.BankControl.resources
-C:\Users\Ryan\Desktop\Ryan's Folder\Binus International\Semester 3\Database System\DB Lec Final Project\FinalProjectDB\FinalProjectDB\obj\Debug\FinalProjectDB.mainMenu.resources
 D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\bin\Debug\FinalProjectDB.exe.config
 D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\bin\Debug\FinalProjectDB.exe
 D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\bin\Debug\FinalProjectDB.pdb
@@ -243,3 +241,7 @@ D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB
 D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\obj\Debug\FinalProjectDB.DepartmentForm.resources
 D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\obj\Debug\FinalProjectDB.csprojAssemblyReference.cache
 D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\obj\Debug\FinalProjectDB.RegisterNewEmployeeForm.resources
+C:\Users\Ryan\Desktop\Ryan's Folder\Binus International\Semester 3\Database System\DB Lec Final Project\FinalProjectDB\FinalProjectDB\obj\Debug\FinalProjectDB.core.resources
+C:\Users\Ryan\Desktop\Ryan's Folder\Binus International\Semester 3\Database System\DB Lec Final Project\FinalProjectDB\FinalProjectDB\obj\Debug\FinalProjectDB.DepartmentForm.resources
+C:\Users\Ryan\Desktop\Ryan's Folder\Binus International\Semester 3\Database System\DB Lec Final Project\FinalProjectDB\FinalProjectDB\obj\Debug\FinalProjectDB.MainForm.resources
+C:\Users\Ryan\Desktop\Ryan's Folder\Binus International\Semester 3\Database System\DB Lec Final Project\FinalProjectDB\FinalProjectDB\obj\Debug\FinalProjectDB.RegisterNewEmployeeForm.resources

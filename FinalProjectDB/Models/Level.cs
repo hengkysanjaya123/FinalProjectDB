@@ -11,11 +11,9 @@ namespace FinalProjectDB
     class Level
     {
         private DBConnection conn = new DBConnection();
-        private int id;
-        private string levelName;
 
-        public int Id { get => id; set => id = value; }
-        public string LevelName { get => levelName; set => levelName = value; }
+        public int Id { get; set; }
+        public string LevelName { get; set; }
 
         public Level()
         {
@@ -23,13 +21,13 @@ namespace FinalProjectDB
 
         public Level(string levelName)
         {
-            this.levelName = levelName;
+            this.LevelName = levelName;
         }
 
         public Level(int id, string levelName)
         {
-            this.id = id;
-            this.levelName = levelName;
+            this.Id = id;
+            this.LevelName = levelName;
         }
 
         public void AddLevel()
@@ -40,7 +38,7 @@ namespace FinalProjectDB
                 connection.Open();
                 MySqlCommand insertLevel = connection.CreateCommand();
                 insertLevel.CommandText = "INSERT INTO level(Name) VALUES (@levelname)";
-                insertLevel.Parameters.AddWithValue("@levelname", levelName);
+                insertLevel.Parameters.AddWithValue("@levelname", LevelName);
                 insertLevel.ExecuteNonQuery();
                 MessageBox.Show("Data Inserted Successfully!");
                 connection.Close();
@@ -76,6 +74,47 @@ namespace FinalProjectDB
                 MessageBox.Show("Error:", ex.Message);
                 return null;
             }
+        }
+
+        public void UpdateLevel()
+        {
+            try
+            {
+                MySqlConnection connection = conn.OpenConnection();
+                connection.Open();
+                MySqlCommand insertDepartment = connection.CreateCommand();
+                insertDepartment.CommandText = "UPDATE level SET Name = @name WHERE ID = @id";
+                insertDepartment.Parameters.AddWithValue("@name", LevelName);
+                insertDepartment.Parameters.AddWithValue("@id", Id);
+                insertDepartment.ExecuteNonQuery();
+                MessageBox.Show("Data Updated Successfully!");
+                connection.Close();
+            }
+            catch (MySqlException ex)
+            {
+                MessageBox.Show("Error:", ex.Message);
+            }
+
+        }
+
+        public void DeleteLevel(int id)
+        {
+            try
+            {
+                MySqlConnection connection = conn.OpenConnection();
+                connection.Open();
+                MySqlCommand comd = connection.CreateCommand();
+                comd.CommandText = "DELETE FROM level WHERE ID = @id";
+                comd.Parameters.AddWithValue("@id", id);
+                comd.ExecuteNonQuery();
+                MessageBox.Show("Data Deleted Successfully!");
+                connection.Close();
+            }
+            catch (MySqlException ex)
+            {
+                MessageBox.Show("Error:", ex.Message);
+            }
+
         }
     }
 }
