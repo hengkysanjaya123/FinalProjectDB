@@ -43,7 +43,19 @@ namespace FinalProjectDB
         {
             OpenForm(new DepartmentForm());
         }
-
+        
+        private void levelToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            OpenForm(new LevelForm());
+        }
+        private void posToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            OpenForm(new PosForm());
+        }
+        private void transactionTypeToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            OpenForm(new TransactionTypeForm());
+        }
 
 
         private void registerNewEmployeeToolStripMenuItem_Click(object sender, EventArgs e)

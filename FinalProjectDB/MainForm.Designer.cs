@@ -125,18 +125,24 @@
             this.levelToolStripMenuItem.Name = "levelToolStripMenuItem";
             this.levelToolStripMenuItem.Size = new System.Drawing.Size(161, 22);
             this.levelToolStripMenuItem.Text = "Level";
+            this.levelToolStripMenuItem.Click += new System.EventHandler(this.levelToolStripMenuItem_Click);
+
             // 
             // posToolStripMenuItem
             // 
             this.posToolStripMenuItem.Name = "posToolStripMenuItem";
             this.posToolStripMenuItem.Size = new System.Drawing.Size(161, 22);
             this.posToolStripMenuItem.Text = "Position";
+            this.posToolStripMenuItem.Click += new System.EventHandler(this.posToolStripMenuItem_Click);
+
             // 
             // transactionTypeToolStripMenuItem
             // 
             this.transactionTypeToolStripMenuItem.Name = "transactionTypeToolStripMenuItem";
             this.transactionTypeToolStripMenuItem.Size = new System.Drawing.Size(161, 22);
             this.transactionTypeToolStripMenuItem.Text = "Transaction Type";
+            this.transactionTypeToolStripMenuItem.Click += new System.EventHandler(this.transactionTypeToolStripMenuItem_Click);
+
             // 
             // reportToolStripMenuItem
             // 
