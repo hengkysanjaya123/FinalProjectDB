@@ -25,14 +25,29 @@ namespace FinalProjectDB
             SetStyle(container);
         }
 
+        public bool Validation(Control ctrl)
+        {
+            foreach (Control a in ctrl.Controls)
+            {
+                if (a is TextBox)
+                {
+                    if (a.Tag + "" != "" && a.Text == "")
+                    {
+                        return false;
+                    }
+                }
+            }
+            return true;
+        }
+
         public void SetStyle(Control ctrl)
         {
-            foreach(Control a in ctrl.Controls)
+            foreach (Control a in ctrl.Controls)
             {
-                if(a is Button btn)
+                if (a is Button btn)
                 {
                     var text = btn.Text.ToLower();
-                    if(text.Contains("delete"))
+                    if (text.Contains("delete"))
                     {
                         btn.BackColor = ColorTranslator.FromHtml("#e74c3c");
                     }
@@ -46,6 +61,10 @@ namespace FinalProjectDB
                     btn.ForeColor = ColorTranslator.FromHtml("#ecf0f1");
                     btn.FlatStyle = FlatStyle.Flat;
                     btn.FlatAppearance.BorderSize = 0;
+                }
+                else if (a is ComboBox combo)
+                {
+                    combo.DropDownStyle = ComboBoxStyle.DropDownList;
                 }
 
                 if (a.HasChildren)
