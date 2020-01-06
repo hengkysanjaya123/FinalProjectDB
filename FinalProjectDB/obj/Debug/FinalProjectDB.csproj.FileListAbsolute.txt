@@ -1,120 +1,121 @@
-D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\bin\Debug\FinalProjectDB.exe.config
-D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\bin\Debug\FinalProjectDB.exe
-D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\bin\Debug\FinalProjectDB.pdb
-D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\bin\Debug\Microsoft.Win32.Primitives.dll
-D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\bin\Debug\netstandard.dll
-D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\bin\Debug\System.AppContext.dll
-D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\bin\Debug\System.Collections.Concurrent.dll
-D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\bin\Debug\System.Collections.dll
-D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\bin\Debug\System.Collections.NonGeneric.dll
-D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\bin\Debug\System.Collections.Specialized.dll
-D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\bin\Debug\System.ComponentModel.dll
-D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\bin\Debug\System.ComponentModel.EventBasedAsync.dll
-D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\bin\Debug\System.ComponentModel.Primitives.dll
-D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\bin\Debug\System.ComponentModel.TypeConverter.dll
-D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\bin\Debug\System.Console.dll
-D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\bin\Debug\System.Data.Common.dll
-D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\bin\Debug\System.Diagnostics.Contracts.dll
-D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\bin\Debug\System.Diagnostics.Debug.dll
-D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\bin\Debug\System.Diagnostics.FileVersionInfo.dll
-D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\bin\Debug\System.Diagnostics.Process.dll
-D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\bin\Debug\System.Diagnostics.StackTrace.dll
-D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\bin\Debug\System.Diagnostics.TextWriterTraceListener.dll
-D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\bin\Debug\System.Diagnostics.Tools.dll
-D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\bin\Debug\System.Diagnostics.TraceSource.dll
-D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\bin\Debug\System.Diagnostics.Tracing.dll
-D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\bin\Debug\System.Drawing.Primitives.dll
-D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\bin\Debug\System.Dynamic.Runtime.dll
-D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\bin\Debug\System.Globalization.Calendars.dll
-D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\bin\Debug\System.Globalization.dll
-D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\bin\Debug\System.Globalization.Extensions.dll
-D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\bin\Debug\System.IO.Compression.dll
-D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\bin\Debug\System.IO.Compression.ZipFile.dll
-D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\bin\Debug\System.IO.dll
-D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\bin\Debug\System.IO.FileSystem.dll
-D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\bin\Debug\System.IO.FileSystem.DriveInfo.dll
-D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\bin\Debug\System.IO.FileSystem.Primitives.dll
-D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\bin\Debug\System.IO.FileSystem.Watcher.dll
-D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\bin\Debug\System.IO.IsolatedStorage.dll
-D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\bin\Debug\System.IO.MemoryMappedFiles.dll
-D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\bin\Debug\System.IO.Pipes.dll
-D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\bin\Debug\System.IO.UnmanagedMemoryStream.dll
-D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\bin\Debug\System.Linq.dll
-D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\bin\Debug\System.Linq.Expressions.dll
-D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\bin\Debug\System.Linq.Parallel.dll
-D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\bin\Debug\System.Linq.Queryable.dll
-D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\bin\Debug\System.Net.Http.dll
-D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\bin\Debug\System.Net.NameResolution.dll
-D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\bin\Debug\System.Net.NetworkInformation.dll
-D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\bin\Debug\System.Net.Ping.dll
-D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\bin\Debug\System.Net.Primitives.dll
-D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\bin\Debug\System.Net.Requests.dll
-D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\bin\Debug\System.Net.Security.dll
-D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\bin\Debug\System.Net.Sockets.dll
-D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\bin\Debug\System.Net.WebHeaderCollection.dll
-D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\bin\Debug\System.Net.WebSockets.Client.dll
-D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\bin\Debug\System.Net.WebSockets.dll
-D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\bin\Debug\System.ObjectModel.dll
-D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\bin\Debug\System.Reflection.dll
-D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\bin\Debug\System.Reflection.Extensions.dll
-D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\bin\Debug\System.Reflection.Primitives.dll
-D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\bin\Debug\System.Resources.Reader.dll
-D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\bin\Debug\System.Resources.ResourceManager.dll
-D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\bin\Debug\System.Resources.Writer.dll
-D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\bin\Debug\System.Runtime.CompilerServices.VisualC.dll
-D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\bin\Debug\System.Runtime.dll
-D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\bin\Debug\System.Runtime.Extensions.dll
-D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\bin\Debug\System.Runtime.Handles.dll
-D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\bin\Debug\System.Runtime.InteropServices.dll
-D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
-D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\bin\Debug\System.Runtime.Numerics.dll
-D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\bin\Debug\System.Runtime.Serialization.Formatters.dll
-D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\bin\Debug\System.Runtime.Serialization.Json.dll
-D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\bin\Debug\System.Runtime.Serialization.Primitives.dll
-D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\bin\Debug\System.Runtime.Serialization.Xml.dll
-D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\bin\Debug\System.Security.Claims.dll
-D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\bin\Debug\System.Security.Cryptography.Algorithms.dll
-D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\bin\Debug\System.Security.Cryptography.Csp.dll
-D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\bin\Debug\System.Security.Cryptography.Encoding.dll
-D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\bin\Debug\System.Security.Cryptography.Primitives.dll
-D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\bin\Debug\System.Security.Cryptography.X509Certificates.dll
-D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\bin\Debug\System.Security.Principal.dll
-D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\bin\Debug\System.Security.SecureString.dll
-D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\bin\Debug\System.Text.Encoding.dll
-D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\bin\Debug\System.Text.Encoding.Extensions.dll
-D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\bin\Debug\System.Text.RegularExpressions.dll
-D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\bin\Debug\System.Threading.dll
-D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\bin\Debug\System.Threading.Overlapped.dll
-D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\bin\Debug\System.Threading.Tasks.dll
-D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\bin\Debug\System.Threading.Tasks.Parallel.dll
-D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\bin\Debug\System.Threading.Thread.dll
-D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\bin\Debug\System.Threading.ThreadPool.dll
-D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\bin\Debug\System.Threading.Timer.dll
-D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\bin\Debug\System.ValueTuple.dll
-D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\bin\Debug\System.Xml.ReaderWriter.dll
-D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\bin\Debug\System.Xml.XDocument.dll
-D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\bin\Debug\System.Xml.XmlDocument.dll
-D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\bin\Debug\System.Xml.XmlSerializer.dll
-D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\bin\Debug\System.Xml.XPath.dll
-D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\bin\Debug\System.Xml.XPath.XDocument.dll
-D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\bin\Debug\MySqlConnector.dll
-D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\bin\Debug\System.Buffers.dll
-D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\bin\Debug\System.Memory.dll
-D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\bin\Debug\System.Numerics.Vectors.dll
-D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
-D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\bin\Debug\System.Threading.Tasks.Extensions.dll
-D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\bin\Debug\MySqlConnector.xml
-D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\bin\Debug\System.Buffers.xml
-D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\bin\Debug\System.Memory.xml
-D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\bin\Debug\System.Numerics.Vectors.xml
-D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
-D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\bin\Debug\System.Threading.Tasks.Extensions.xml
-D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\obj\Debug\FinalProjectDB.csprojAssemblyReference.cache
-D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\obj\Debug\FinalProjectDB.exe.config
-D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\obj\Debug\FinalProjectDB.Form1.resources
-D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\obj\Debug\FinalProjectDB.Properties.Resources.resources
-D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\obj\Debug\FinalProjectDB.csproj.GenerateResource.cache
-D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\obj\Debug\FinalProjectDB.csproj.CoreCompileInputs.cache
-D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\obj\Debug\FinalProjectDB.csproj.CopyComplete
-D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\obj\Debug\FinalProjectDB.exe
-D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\obj\Debug\FinalProjectDB.pdb
+C:\Users\Ryan\Desktop\Ryan's Folder\Binus International\Semester 3\Database System\DB Lec Final Project\FinalProjectDB\FinalProjectDB\bin\Debug\FinalProjectDB.exe.config
+C:\Users\Ryan\Desktop\Ryan's Folder\Binus International\Semester 3\Database System\DB Lec Final Project\FinalProjectDB\FinalProjectDB\bin\Debug\FinalProjectDB.exe
+C:\Users\Ryan\Desktop\Ryan's Folder\Binus International\Semester 3\Database System\DB Lec Final Project\FinalProjectDB\FinalProjectDB\bin\Debug\FinalProjectDB.pdb
+C:\Users\Ryan\Desktop\Ryan's Folder\Binus International\Semester 3\Database System\DB Lec Final Project\FinalProjectDB\FinalProjectDB\obj\Debug\FinalProjectDB.csprojAssemblyReference.cache
+C:\Users\Ryan\Desktop\Ryan's Folder\Binus International\Semester 3\Database System\DB Lec Final Project\FinalProjectDB\FinalProjectDB\obj\Debug\FinalProjectDB.Properties.Resources.resources
+C:\Users\Ryan\Desktop\Ryan's Folder\Binus International\Semester 3\Database System\DB Lec Final Project\FinalProjectDB\FinalProjectDB\obj\Debug\FinalProjectDB.csproj.GenerateResource.cache
+C:\Users\Ryan\Desktop\Ryan's Folder\Binus International\Semester 3\Database System\DB Lec Final Project\FinalProjectDB\FinalProjectDB\obj\Debug\FinalProjectDB.csproj.CoreCompileInputs.cache
+C:\Users\Ryan\Desktop\Ryan's Folder\Binus International\Semester 3\Database System\DB Lec Final Project\FinalProjectDB\FinalProjectDB\obj\Debug\FinalProjectDB.exe
+C:\Users\Ryan\Desktop\Ryan's Folder\Binus International\Semester 3\Database System\DB Lec Final Project\FinalProjectDB\FinalProjectDB\obj\Debug\FinalProjectDB.pdb
+C:\Users\Ryan\Desktop\Ryan's Folder\Binus International\Semester 3\Database System\DB Lec Final Project\FinalProjectDB\FinalProjectDB\bin\Debug\Microsoft.Win32.Primitives.dll
+C:\Users\Ryan\Desktop\Ryan's Folder\Binus International\Semester 3\Database System\DB Lec Final Project\FinalProjectDB\FinalProjectDB\bin\Debug\netstandard.dll
+C:\Users\Ryan\Desktop\Ryan's Folder\Binus International\Semester 3\Database System\DB Lec Final Project\FinalProjectDB\FinalProjectDB\bin\Debug\System.AppContext.dll
+C:\Users\Ryan\Desktop\Ryan's Folder\Binus International\Semester 3\Database System\DB Lec Final Project\FinalProjectDB\FinalProjectDB\bin\Debug\System.Collections.Concurrent.dll
+C:\Users\Ryan\Desktop\Ryan's Folder\Binus International\Semester 3\Database System\DB Lec Final Project\FinalProjectDB\FinalProjectDB\bin\Debug\System.Collections.dll
+C:\Users\Ryan\Desktop\Ryan's Folder\Binus International\Semester 3\Database System\DB Lec Final Project\FinalProjectDB\FinalProjectDB\bin\Debug\System.Collections.NonGeneric.dll
+C:\Users\Ryan\Desktop\Ryan's Folder\Binus International\Semester 3\Database System\DB Lec Final Project\FinalProjectDB\FinalProjectDB\bin\Debug\System.Collections.Specialized.dll
+C:\Users\Ryan\Desktop\Ryan's Folder\Binus International\Semester 3\Database System\DB Lec Final Project\FinalProjectDB\FinalProjectDB\bin\Debug\System.ComponentModel.dll
+C:\Users\Ryan\Desktop\Ryan's Folder\Binus International\Semester 3\Database System\DB Lec Final Project\FinalProjectDB\FinalProjectDB\bin\Debug\System.ComponentModel.EventBasedAsync.dll
+C:\Users\Ryan\Desktop\Ryan's Folder\Binus International\Semester 3\Database System\DB Lec Final Project\FinalProjectDB\FinalProjectDB\bin\Debug\System.ComponentModel.Primitives.dll
+C:\Users\Ryan\Desktop\Ryan's Folder\Binus International\Semester 3\Database System\DB Lec Final Project\FinalProjectDB\FinalProjectDB\bin\Debug\System.ComponentModel.TypeConverter.dll
+C:\Users\Ryan\Desktop\Ryan's Folder\Binus International\Semester 3\Database System\DB Lec Final Project\FinalProjectDB\FinalProjectDB\bin\Debug\System.Console.dll
+C:\Users\Ryan\Desktop\Ryan's Folder\Binus International\Semester 3\Database System\DB Lec Final Project\FinalProjectDB\FinalProjectDB\bin\Debug\System.Data.Common.dll
+C:\Users\Ryan\Desktop\Ryan's Folder\Binus International\Semester 3\Database System\DB Lec Final Project\FinalProjectDB\FinalProjectDB\bin\Debug\System.Diagnostics.Contracts.dll
+C:\Users\Ryan\Desktop\Ryan's Folder\Binus International\Semester 3\Database System\DB Lec Final Project\FinalProjectDB\FinalProjectDB\bin\Debug\System.Diagnostics.Debug.dll
+C:\Users\Ryan\Desktop\Ryan's Folder\Binus International\Semester 3\Database System\DB Lec Final Project\FinalProjectDB\FinalProjectDB\bin\Debug\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Ryan\Desktop\Ryan's Folder\Binus International\Semester 3\Database System\DB Lec Final Project\FinalProjectDB\FinalProjectDB\bin\Debug\System.Diagnostics.Process.dll
+C:\Users\Ryan\Desktop\Ryan's Folder\Binus International\Semester 3\Database System\DB Lec Final Project\FinalProjectDB\FinalProjectDB\bin\Debug\System.Diagnostics.StackTrace.dll
+C:\Users\Ryan\Desktop\Ryan's Folder\Binus International\Semester 3\Database System\DB Lec Final Project\FinalProjectDB\FinalProjectDB\bin\Debug\System.Diagnostics.TextWriterTraceListener.dll
+C:\Users\Ryan\Desktop\Ryan's Folder\Binus International\Semester 3\Database System\DB Lec Final Project\FinalProjectDB\FinalProjectDB\bin\Debug\System.Diagnostics.Tools.dll
+C:\Users\Ryan\Desktop\Ryan's Folder\Binus International\Semester 3\Database System\DB Lec Final Project\FinalProjectDB\FinalProjectDB\bin\Debug\System.Diagnostics.TraceSource.dll
+C:\Users\Ryan\Desktop\Ryan's Folder\Binus International\Semester 3\Database System\DB Lec Final Project\FinalProjectDB\FinalProjectDB\bin\Debug\System.Diagnostics.Tracing.dll
+C:\Users\Ryan\Desktop\Ryan's Folder\Binus International\Semester 3\Database System\DB Lec Final Project\FinalProjectDB\FinalProjectDB\bin\Debug\System.Drawing.Primitives.dll
+C:\Users\Ryan\Desktop\Ryan's Folder\Binus International\Semester 3\Database System\DB Lec Final Project\FinalProjectDB\FinalProjectDB\bin\Debug\System.Dynamic.Runtime.dll
+C:\Users\Ryan\Desktop\Ryan's Folder\Binus International\Semester 3\Database System\DB Lec Final Project\FinalProjectDB\FinalProjectDB\bin\Debug\System.Globalization.Calendars.dll
+C:\Users\Ryan\Desktop\Ryan's Folder\Binus International\Semester 3\Database System\DB Lec Final Project\FinalProjectDB\FinalProjectDB\bin\Debug\System.Globalization.dll
+C:\Users\Ryan\Desktop\Ryan's Folder\Binus International\Semester 3\Database System\DB Lec Final Project\FinalProjectDB\FinalProjectDB\bin\Debug\System.Globalization.Extensions.dll
+C:\Users\Ryan\Desktop\Ryan's Folder\Binus International\Semester 3\Database System\DB Lec Final Project\FinalProjectDB\FinalProjectDB\bin\Debug\System.IO.Compression.dll
+C:\Users\Ryan\Desktop\Ryan's Folder\Binus International\Semester 3\Database System\DB Lec Final Project\FinalProjectDB\FinalProjectDB\bin\Debug\System.IO.Compression.ZipFile.dll
+C:\Users\Ryan\Desktop\Ryan's Folder\Binus International\Semester 3\Database System\DB Lec Final Project\FinalProjectDB\FinalProjectDB\bin\Debug\System.IO.dll
+C:\Users\Ryan\Desktop\Ryan's Folder\Binus International\Semester 3\Database System\DB Lec Final Project\FinalProjectDB\FinalProjectDB\bin\Debug\System.IO.FileSystem.dll
+C:\Users\Ryan\Desktop\Ryan's Folder\Binus International\Semester 3\Database System\DB Lec Final Project\FinalProjectDB\FinalProjectDB\bin\Debug\System.IO.FileSystem.DriveInfo.dll
+C:\Users\Ryan\Desktop\Ryan's Folder\Binus International\Semester 3\Database System\DB Lec Final Project\FinalProjectDB\FinalProjectDB\bin\Debug\System.IO.FileSystem.Primitives.dll
+C:\Users\Ryan\Desktop\Ryan's Folder\Binus International\Semester 3\Database System\DB Lec Final Project\FinalProjectDB\FinalProjectDB\bin\Debug\System.IO.FileSystem.Watcher.dll
+C:\Users\Ryan\Desktop\Ryan's Folder\Binus International\Semester 3\Database System\DB Lec Final Project\FinalProjectDB\FinalProjectDB\bin\Debug\System.IO.IsolatedStorage.dll
+C:\Users\Ryan\Desktop\Ryan's Folder\Binus International\Semester 3\Database System\DB Lec Final Project\FinalProjectDB\FinalProjectDB\bin\Debug\System.IO.MemoryMappedFiles.dll
+C:\Users\Ryan\Desktop\Ryan's Folder\Binus International\Semester 3\Database System\DB Lec Final Project\FinalProjectDB\FinalProjectDB\bin\Debug\System.IO.Pipes.dll
+C:\Users\Ryan\Desktop\Ryan's Folder\Binus International\Semester 3\Database System\DB Lec Final Project\FinalProjectDB\FinalProjectDB\bin\Debug\System.IO.UnmanagedMemoryStream.dll
+C:\Users\Ryan\Desktop\Ryan's Folder\Binus International\Semester 3\Database System\DB Lec Final Project\FinalProjectDB\FinalProjectDB\bin\Debug\System.Linq.dll
+C:\Users\Ryan\Desktop\Ryan's Folder\Binus International\Semester 3\Database System\DB Lec Final Project\FinalProjectDB\FinalProjectDB\bin\Debug\System.Linq.Expressions.dll
+C:\Users\Ryan\Desktop\Ryan's Folder\Binus International\Semester 3\Database System\DB Lec Final Project\FinalProjectDB\FinalProjectDB\bin\Debug\System.Linq.Parallel.dll
+C:\Users\Ryan\Desktop\Ryan's Folder\Binus International\Semester 3\Database System\DB Lec Final Project\FinalProjectDB\FinalProjectDB\bin\Debug\System.Linq.Queryable.dll
+C:\Users\Ryan\Desktop\Ryan's Folder\Binus International\Semester 3\Database System\DB Lec Final Project\FinalProjectDB\FinalProjectDB\bin\Debug\System.Net.Http.dll
+C:\Users\Ryan\Desktop\Ryan's Folder\Binus International\Semester 3\Database System\DB Lec Final Project\FinalProjectDB\FinalProjectDB\bin\Debug\System.Net.NameResolution.dll
+C:\Users\Ryan\Desktop\Ryan's Folder\Binus International\Semester 3\Database System\DB Lec Final Project\FinalProjectDB\FinalProjectDB\bin\Debug\System.Net.NetworkInformation.dll
+C:\Users\Ryan\Desktop\Ryan's Folder\Binus International\Semester 3\Database System\DB Lec Final Project\FinalProjectDB\FinalProjectDB\bin\Debug\System.Net.Ping.dll
+C:\Users\Ryan\Desktop\Ryan's Folder\Binus International\Semester 3\Database System\DB Lec Final Project\FinalProjectDB\FinalProjectDB\bin\Debug\System.Net.Primitives.dll
+C:\Users\Ryan\Desktop\Ryan's Folder\Binus International\Semester 3\Database System\DB Lec Final Project\FinalProjectDB\FinalProjectDB\bin\Debug\System.Net.Requests.dll
+C:\Users\Ryan\Desktop\Ryan's Folder\Binus International\Semester 3\Database System\DB Lec Final Project\FinalProjectDB\FinalProjectDB\bin\Debug\System.Net.Security.dll
+C:\Users\Ryan\Desktop\Ryan's Folder\Binus International\Semester 3\Database System\DB Lec Final Project\FinalProjectDB\FinalProjectDB\bin\Debug\System.Net.Sockets.dll
+C:\Users\Ryan\Desktop\Ryan's Folder\Binus International\Semester 3\Database System\DB Lec Final Project\FinalProjectDB\FinalProjectDB\bin\Debug\System.Net.WebHeaderCollection.dll
+C:\Users\Ryan\Desktop\Ryan's Folder\Binus International\Semester 3\Database System\DB Lec Final Project\FinalProjectDB\FinalProjectDB\bin\Debug\System.Net.WebSockets.Client.dll
+C:\Users\Ryan\Desktop\Ryan's Folder\Binus International\Semester 3\Database System\DB Lec Final Project\FinalProjectDB\FinalProjectDB\bin\Debug\System.Net.WebSockets.dll
+C:\Users\Ryan\Desktop\Ryan's Folder\Binus International\Semester 3\Database System\DB Lec Final Project\FinalProjectDB\FinalProjectDB\bin\Debug\System.ObjectModel.dll
+C:\Users\Ryan\Desktop\Ryan's Folder\Binus International\Semester 3\Database System\DB Lec Final Project\FinalProjectDB\FinalProjectDB\bin\Debug\System.Reflection.dll
+C:\Users\Ryan\Desktop\Ryan's Folder\Binus International\Semester 3\Database System\DB Lec Final Project\FinalProjectDB\FinalProjectDB\bin\Debug\System.Reflection.Extensions.dll
+C:\Users\Ryan\Desktop\Ryan's Folder\Binus International\Semester 3\Database System\DB Lec Final Project\FinalProjectDB\FinalProjectDB\bin\Debug\System.Reflection.Primitives.dll
+C:\Users\Ryan\Desktop\Ryan's Folder\Binus International\Semester 3\Database System\DB Lec Final Project\FinalProjectDB\FinalProjectDB\bin\Debug\System.Resources.Reader.dll
+C:\Users\Ryan\Desktop\Ryan's Folder\Binus International\Semester 3\Database System\DB Lec Final Project\FinalProjectDB\FinalProjectDB\bin\Debug\System.Resources.ResourceManager.dll
+C:\Users\Ryan\Desktop\Ryan's Folder\Binus International\Semester 3\Database System\DB Lec Final Project\FinalProjectDB\FinalProjectDB\bin\Debug\System.Resources.Writer.dll
+C:\Users\Ryan\Desktop\Ryan's Folder\Binus International\Semester 3\Database System\DB Lec Final Project\FinalProjectDB\FinalProjectDB\bin\Debug\System.Runtime.CompilerServices.VisualC.dll
+C:\Users\Ryan\Desktop\Ryan's Folder\Binus International\Semester 3\Database System\DB Lec Final Project\FinalProjectDB\FinalProjectDB\bin\Debug\System.Runtime.dll
+C:\Users\Ryan\Desktop\Ryan's Folder\Binus International\Semester 3\Database System\DB Lec Final Project\FinalProjectDB\FinalProjectDB\bin\Debug\System.Runtime.Extensions.dll
+C:\Users\Ryan\Desktop\Ryan's Folder\Binus International\Semester 3\Database System\DB Lec Final Project\FinalProjectDB\FinalProjectDB\bin\Debug\System.Runtime.Handles.dll
+C:\Users\Ryan\Desktop\Ryan's Folder\Binus International\Semester 3\Database System\DB Lec Final Project\FinalProjectDB\FinalProjectDB\bin\Debug\System.Runtime.InteropServices.dll
+C:\Users\Ryan\Desktop\Ryan's Folder\Binus International\Semester 3\Database System\DB Lec Final Project\FinalProjectDB\FinalProjectDB\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Ryan\Desktop\Ryan's Folder\Binus International\Semester 3\Database System\DB Lec Final Project\FinalProjectDB\FinalProjectDB\bin\Debug\System.Runtime.Numerics.dll
+C:\Users\Ryan\Desktop\Ryan's Folder\Binus International\Semester 3\Database System\DB Lec Final Project\FinalProjectDB\FinalProjectDB\bin\Debug\System.Runtime.Serialization.Formatters.dll
+C:\Users\Ryan\Desktop\Ryan's Folder\Binus International\Semester 3\Database System\DB Lec Final Project\FinalProjectDB\FinalProjectDB\bin\Debug\System.Runtime.Serialization.Json.dll
+C:\Users\Ryan\Desktop\Ryan's Folder\Binus International\Semester 3\Database System\DB Lec Final Project\FinalProjectDB\FinalProjectDB\bin\Debug\System.Runtime.Serialization.Primitives.dll
+C:\Users\Ryan\Desktop\Ryan's Folder\Binus International\Semester 3\Database System\DB Lec Final Project\FinalProjectDB\FinalProjectDB\bin\Debug\System.Runtime.Serialization.Xml.dll
+C:\Users\Ryan\Desktop\Ryan's Folder\Binus International\Semester 3\Database System\DB Lec Final Project\FinalProjectDB\FinalProjectDB\bin\Debug\System.Security.Claims.dll
+C:\Users\Ryan\Desktop\Ryan's Folder\Binus International\Semester 3\Database System\DB Lec Final Project\FinalProjectDB\FinalProjectDB\bin\Debug\System.Security.Cryptography.Algorithms.dll
+C:\Users\Ryan\Desktop\Ryan's Folder\Binus International\Semester 3\Database System\DB Lec Final Project\FinalProjectDB\FinalProjectDB\bin\Debug\System.Security.Cryptography.Csp.dll
+C:\Users\Ryan\Desktop\Ryan's Folder\Binus International\Semester 3\Database System\DB Lec Final Project\FinalProjectDB\FinalProjectDB\bin\Debug\System.Security.Cryptography.Encoding.dll
+C:\Users\Ryan\Desktop\Ryan's Folder\Binus International\Semester 3\Database System\DB Lec Final Project\FinalProjectDB\FinalProjectDB\bin\Debug\System.Security.Cryptography.Primitives.dll
+C:\Users\Ryan\Desktop\Ryan's Folder\Binus International\Semester 3\Database System\DB Lec Final Project\FinalProjectDB\FinalProjectDB\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Ryan\Desktop\Ryan's Folder\Binus International\Semester 3\Database System\DB Lec Final Project\FinalProjectDB\FinalProjectDB\bin\Debug\System.Security.Principal.dll
+C:\Users\Ryan\Desktop\Ryan's Folder\Binus International\Semester 3\Database System\DB Lec Final Project\FinalProjectDB\FinalProjectDB\bin\Debug\System.Security.SecureString.dll
+C:\Users\Ryan\Desktop\Ryan's Folder\Binus International\Semester 3\Database System\DB Lec Final Project\FinalProjectDB\FinalProjectDB\bin\Debug\System.Text.Encoding.dll
+C:\Users\Ryan\Desktop\Ryan's Folder\Binus International\Semester 3\Database System\DB Lec Final Project\FinalProjectDB\FinalProjectDB\bin\Debug\System.Text.Encoding.Extensions.dll
+C:\Users\Ryan\Desktop\Ryan's Folder\Binus International\Semester 3\Database System\DB Lec Final Project\FinalProjectDB\FinalProjectDB\bin\Debug\System.Text.RegularExpressions.dll
+C:\Users\Ryan\Desktop\Ryan's Folder\Binus International\Semester 3\Database System\DB Lec Final Project\FinalProjectDB\FinalProjectDB\bin\Debug\System.Threading.dll
+C:\Users\Ryan\Desktop\Ryan's Folder\Binus International\Semester 3\Database System\DB Lec Final Project\FinalProjectDB\FinalProjectDB\bin\Debug\System.Threading.Overlapped.dll
+C:\Users\Ryan\Desktop\Ryan's Folder\Binus International\Semester 3\Database System\DB Lec Final Project\FinalProjectDB\FinalProjectDB\bin\Debug\System.Threading.Tasks.dll
+C:\Users\Ryan\Desktop\Ryan's Folder\Binus International\Semester 3\Database System\DB Lec Final Project\FinalProjectDB\FinalProjectDB\bin\Debug\System.Threading.Tasks.Parallel.dll
+C:\Users\Ryan\Desktop\Ryan's Folder\Binus International\Semester 3\Database System\DB Lec Final Project\FinalProjectDB\FinalProjectDB\bin\Debug\System.Threading.Thread.dll
+C:\Users\Ryan\Desktop\Ryan's Folder\Binus International\Semester 3\Database System\DB Lec Final Project\FinalProjectDB\FinalProjectDB\bin\Debug\System.Threading.ThreadPool.dll
+C:\Users\Ryan\Desktop\Ryan's Folder\Binus International\Semester 3\Database System\DB Lec Final Project\FinalProjectDB\FinalProjectDB\bin\Debug\System.Threading.Timer.dll
+C:\Users\Ryan\Desktop\Ryan's Folder\Binus International\Semester 3\Database System\DB Lec Final Project\FinalProjectDB\FinalProjectDB\bin\Debug\System.ValueTuple.dll
+C:\Users\Ryan\Desktop\Ryan's Folder\Binus International\Semester 3\Database System\DB Lec Final Project\FinalProjectDB\FinalProjectDB\bin\Debug\System.Xml.ReaderWriter.dll
+C:\Users\Ryan\Desktop\Ryan's Folder\Binus International\Semester 3\Database System\DB Lec Final Project\FinalProjectDB\FinalProjectDB\bin\Debug\System.Xml.XDocument.dll
+C:\Users\Ryan\Desktop\Ryan's Folder\Binus International\Semester 3\Database System\DB Lec Final Project\FinalProjectDB\FinalProjectDB\bin\Debug\System.Xml.XmlDocument.dll
+C:\Users\Ryan\Desktop\Ryan's Folder\Binus International\Semester 3\Database System\DB Lec Final Project\FinalProjectDB\FinalProjectDB\bin\Debug\System.Xml.XmlSerializer.dll
+C:\Users\Ryan\Desktop\Ryan's Folder\Binus International\Semester 3\Database System\DB Lec Final Project\FinalProjectDB\FinalProjectDB\bin\Debug\System.Xml.XPath.dll
+C:\Users\Ryan\Desktop\Ryan's Folder\Binus International\Semester 3\Database System\DB Lec Final Project\FinalProjectDB\FinalProjectDB\bin\Debug\System.Xml.XPath.XDocument.dll
+C:\Users\Ryan\Desktop\Ryan's Folder\Binus International\Semester 3\Database System\DB Lec Final Project\FinalProjectDB\FinalProjectDB\bin\Debug\MySqlConnector.dll
+C:\Users\Ryan\Desktop\Ryan's Folder\Binus International\Semester 3\Database System\DB Lec Final Project\FinalProjectDB\FinalProjectDB\bin\Debug\System.Buffers.dll
+C:\Users\Ryan\Desktop\Ryan's Folder\Binus International\Semester 3\Database System\DB Lec Final Project\FinalProjectDB\FinalProjectDB\bin\Debug\System.Memory.dll
+C:\Users\Ryan\Desktop\Ryan's Folder\Binus International\Semester 3\Database System\DB Lec Final Project\FinalProjectDB\FinalProjectDB\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Ryan\Desktop\Ryan's Folder\Binus International\Semester 3\Database System\DB Lec Final Project\FinalProjectDB\FinalProjectDB\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Ryan\Desktop\Ryan's Folder\Binus International\Semester 3\Database System\DB Lec Final Project\FinalProjectDB\FinalProjectDB\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Ryan\Desktop\Ryan's Folder\Binus International\Semester 3\Database System\DB Lec Final Project\FinalProjectDB\FinalProjectDB\bin\Debug\MySqlConnector.xml
+C:\Users\Ryan\Desktop\Ryan's Folder\Binus International\Semester 3\Database System\DB Lec Final Project\FinalProjectDB\FinalProjectDB\bin\Debug\System.Buffers.xml
+C:\Users\Ryan\Desktop\Ryan's Folder\Binus International\Semester 3\Database System\DB Lec Final Project\FinalProjectDB\FinalProjectDB\bin\Debug\System.Memory.xml
+C:\Users\Ryan\Desktop\Ryan's Folder\Binus International\Semester 3\Database System\DB Lec Final Project\FinalProjectDB\FinalProjectDB\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Ryan\Desktop\Ryan's Folder\Binus International\Semester 3\Database System\DB Lec Final Project\FinalProjectDB\FinalProjectDB\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Ryan\Desktop\Ryan's Folder\Binus International\Semester 3\Database System\DB Lec Final Project\FinalProjectDB\FinalProjectDB\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Ryan\Desktop\Ryan's Folder\Binus International\Semester 3\Database System\DB Lec Final Project\FinalProjectDB\FinalProjectDB\obj\Debug\FinalProjectDB.exe.config
+C:\Users\Ryan\Desktop\Ryan's Folder\Binus International\Semester 3\Database System\DB Lec Final Project\FinalProjectDB\FinalProjectDB\obj\Debug\FinalProjectDB.csproj.CopyComplete
+C:\Users\Ryan\Desktop\Ryan's Folder\Binus International\Semester 3\Database System\DB Lec Final Project\FinalProjectDB\FinalProjectDB\obj\Debug\FinalProjectDB.BankControl.resources
+C:\Users\Ryan\Desktop\Ryan's Folder\Binus International\Semester 3\Database System\DB Lec Final Project\FinalProjectDB\FinalProjectDB\obj\Debug\FinalProjectDB.mainMenu.resources
