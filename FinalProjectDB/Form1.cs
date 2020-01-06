@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace FinalProjectDB
 {
-    public partial class mainMenu : Form
+    public partial class mainMenu : core
     {
         public mainMenu()
         {

@@ -76,6 +76,12 @@
     </Compile>
     <Compile Include="Branch.cs" />
     <Compile Include="ContractType.cs" />
+    <Compile Include="core.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="core.Designer.cs">
+      <DependentUpon>core.cs</DependentUpon>
+    </Compile>
     <Compile Include="Department.cs" />
     <Compile Include="Employee.cs" />
     <Compile Include="DBConnection.cs" />
@@ -92,6 +98,9 @@
     <Compile Include="TransactionType.cs" />
     <EmbeddedResource Include="BankControl.resx">
       <DependentUpon>BankControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="core.resx">
+      <DependentUpon>core.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>

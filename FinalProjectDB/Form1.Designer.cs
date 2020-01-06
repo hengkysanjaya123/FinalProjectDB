@@ -29,27 +29,39 @@
         private void InitializeComponent()
         {
             this.bankControlButton = new System.Windows.Forms.Button();
+            this.container.SuspendLayout();
             this.SuspendLayout();
+            // 
+            // container
+            // 
+            this.container.Controls.Add(this.bankControlButton);
+            this.container.ForeColor = System.Drawing.Color.Black;
+            this.container.Size = new System.Drawing.Size(714, 440);
             // 
             // bankControlButton
             // 
-            this.bankControlButton.Location = new System.Drawing.Point(54, 82);
+            this.bankControlButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(188)))), ((int)(((byte)(156)))));
+            this.bankControlButton.FlatAppearance.BorderSize = 0;
+            this.bankControlButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.bankControlButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(240)))), ((int)(((byte)(241)))));
+            this.bankControlButton.Location = new System.Drawing.Point(57, 28);
+            this.bankControlButton.Margin = new System.Windows.Forms.Padding(2);
             this.bankControlButton.Name = "bankControlButton";
-            this.bankControlButton.Size = new System.Drawing.Size(208, 34);
-            this.bankControlButton.TabIndex = 0;
+            this.bankControlButton.Size = new System.Drawing.Size(139, 22);
+            this.bankControlButton.TabIndex = 1;
             this.bankControlButton.Text = "Bank Control";
-            this.bankControlButton.UseVisualStyleBackColor = true;
-            this.bankControlButton.Click += new System.EventHandler(this.button1_Click);
+            this.bankControlButton.UseVisualStyleBackColor = false;
             // 
             // mainMenu
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 449);
-            this.Controls.Add(this.bankControlButton);
+            this.ClientSize = new System.Drawing.Size(714, 440);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "mainMenu";
             this.Text = "HR Management System";
             this.Load += new System.EventHandler(this.Form1_Load);
+            this.container.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
