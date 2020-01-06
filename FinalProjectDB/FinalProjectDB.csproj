@@ -103,6 +103,12 @@
     <Compile Include="EmployeeEntryFamilyData.Designer.cs">
       <DependentUpon>EmployeeEntryFamilyData.cs</DependentUpon>
     </Compile>
+    <Compile Include="LevelForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LevelForm.Designer.cs">
+      <DependentUpon>LevelForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -127,6 +133,12 @@
     <Compile Include="Models\EmployeePhone.cs" />
     <Compile Include="Models\Level.cs" />
     <Compile Include="Models\Pos.cs" />
+    <Compile Include="PosForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PosForm.Designer.cs">
+      <DependentUpon>PosForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Models\TransactionType.cs" />
@@ -139,6 +151,12 @@
     <EmbeddedResource Include="ContractTypeForm.resx">
       <DependentUpon>ContractTypeForm.cs</DependentUpon>
     </EmbeddedResource>
+    <Compile Include="TransactionTypeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TransactionTypeForm.Designer.cs">
+      <DependentUpon>TransactionTypeForm.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="core.resx">
       <DependentUpon>core.cs</DependentUpon>
     </EmbeddedResource>
