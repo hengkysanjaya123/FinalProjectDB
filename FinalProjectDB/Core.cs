@@ -32,9 +32,13 @@ namespace FinalProjectDB
                 if(a is Button btn)
                 {
                     var text = btn.Text.ToLower();
-                    if(text.Contains("delete") || text.Contains("cancel"))
+                    if(text.Contains("delete"))
                     {
                         btn.BackColor = ColorTranslator.FromHtml("#e74c3c");
+                    }
+                    else if (text.Contains("cancel"))
+                    {
+                        btn.BackColor = ColorTranslator.FromHtml("#74b9ff");
                     }
                     else
                         btn.BackColor = ColorTranslator.FromHtml("#1abc9c");

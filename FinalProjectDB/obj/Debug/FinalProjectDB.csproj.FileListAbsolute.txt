@@ -233,10 +233,11 @@ D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB
 D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\obj\Debug\FinalProjectDB.exe.config
 D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\obj\Debug\FinalProjectDB.BankControl.resources
 D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\obj\Debug\FinalProjectDB.Core.resources
-D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\obj\Debug\FinalProjectDB.mainMenu.resources
 D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\obj\Debug\FinalProjectDB.Properties.Resources.resources
 D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\obj\Debug\FinalProjectDB.csproj.GenerateResource.cache
 D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\obj\Debug\FinalProjectDB.csproj.CoreCompileInputs.cache
 D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\obj\Debug\FinalProjectDB.csproj.CopyComplete
 D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\obj\Debug\FinalProjectDB.exe
 D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\obj\Debug\FinalProjectDB.pdb
+D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\obj\Debug\FinalProjectDB.MainForm.resources
+D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\obj\Debug\FinalProjectDB.DepartmentForm.resources

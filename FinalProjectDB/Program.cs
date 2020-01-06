@@ -16,10 +16,7 @@ namespace FinalProjectDB
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new core());
-
-
-
+            Application.Run(new MainForm());
         }
         
     }

@@ -11,25 +11,23 @@ namespace FinalProjectDB
     class Department
     {
         private DBConnection conn = new DBConnection();
-        private int id;
-        private string departmentName;
 
-        public int Id { get => id; set => id = value; }
-        public string DepartmentName { get => departmentName; set => departmentName = value; }
+        public int Id { get; set; }
+        public string DepartmentName { get; set; }
 
         public Department()
         {
         }
 
-        public Department(string departmentName)
-        {
-            this.departmentName = departmentName;
-        }
+        //public Department(string departmentName)
+        //{
+        //    this.departmentName = departmentName;
+        //}
 
         public Department(int id, string departmentName)
         {
-            this.id = id;
-            this.departmentName = departmentName;
+            this.Id = id;
+            this.DepartmentName = departmentName;
         }
 
         public void AddDepartment()
@@ -40,9 +38,51 @@ namespace FinalProjectDB
                 connection.Open();
                 MySqlCommand insertDepartment = connection.CreateCommand();
                 insertDepartment.CommandText = "INSERT INTO department(Name) VALUES (@departmentname)";
-                insertDepartment.Parameters.AddWithValue("@departmentname", departmentName);
+                insertDepartment.Parameters.AddWithValue("@departmentname", DepartmentName);
                 insertDepartment.ExecuteNonQuery();
                 MessageBox.Show("Data Inserted Successfully!");
+                connection.Close();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error:", ex.ToString());
+            }
+
+        }
+
+
+        public void UpdateDepartment()
+        {
+            try
+            {
+                MySqlConnection connection = conn.OpenConnection();
+                connection.Open();
+                MySqlCommand insertDepartment = connection.CreateCommand();
+                insertDepartment.CommandText = "UPDATE department SET Name = @name WHERE ID = @id";
+                insertDepartment.Parameters.AddWithValue("@name", DepartmentName);
+                insertDepartment.Parameters.AddWithValue("@id", Id);
+                insertDepartment.ExecuteNonQuery();
+                MessageBox.Show("Data Updated Successfully!");
+                connection.Close();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error:", ex.ToString());
+            }
+
+        }
+
+        public void DeleteDepartment(int id)
+        {
+            try
+            {
+                MySqlConnection connection = conn.OpenConnection();
+                connection.Open();
+                MySqlCommand comd = connection.CreateCommand();
+                comd.CommandText = "DELETE FROM Department WHERE ID = @id";
+                comd.Parameters.AddWithValue("@id", id);
+                comd.ExecuteNonQuery();
+                MessageBox.Show("Data Deleted Successfully!");
                 connection.Close();
             }
             catch (Exception ex)
