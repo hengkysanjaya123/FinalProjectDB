@@ -28,7 +28,7 @@ namespace FinalProjectDB
 
             catch (MySqlException ex)
             {
-                MessageBox.Show("Error:", ex.Message);
+                MessageBox.Show("Error:" + ex.Message);
                 return null;
             }
 

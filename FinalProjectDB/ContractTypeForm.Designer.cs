@@ -84,9 +84,9 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(208, 244);
+            this.label2.Location = new System.Drawing.Point(196, 244);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(93, 13);
+            this.label2.Size = new System.Drawing.Size(105, 13);
             this.label2.TabIndex = 3;
             this.label2.Text = "Contract Type Name";
             // 

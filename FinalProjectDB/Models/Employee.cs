@@ -52,6 +52,8 @@ namespace FinalProjectDB
         public void CreateEmployee()
         {
             MySqlConnection connection = conn.OpenConnection();
+            connection.Open();
+            
             MySqlCommand cmd = connection.CreateCommand();
             cmd.CommandText = "INSERT INTO employee(NIK, Fullname, Nickname, KTP, " +
                 "Jamsostek, BankID, Rekening, NPWP, StatusPajak, DOB, Gender, Religion, MaritalStatus) " +
@@ -93,7 +95,7 @@ namespace FinalProjectDB
                 var ktp = reader.GetString("KTP");
                 var jamsostek = reader.GetString("Jamsostek");
                 var bankName = reader.GetString("Name");
-                var bankId = reader.GetInt64("BankID");
+                var bankId = (int)reader.GetInt64("BankID");
                 var rekening = reader.GetString("Rekening");
                 var npwp = reader.GetString("NPWP");
                 var statusPajak = reader.GetString("StatusPajak");
@@ -104,8 +106,8 @@ namespace FinalProjectDB
 
 
 
-                var employee = new Employee(nik, fullName, nickName, ktp, jamsostek, bankID, rekening, npwp, statusPajak, dob, gender, religion, maritalStatus);
-                employee.BankName = BankName;
+                var employee = new Employee(nik, fullName, nickName, ktp, jamsostek, bankId, rekening, npwp, statusPajak, dob, gender, religion, maritalStatus);
+                employee.BankName = bankName;
                 list.Add(employee);
             }
             connection.Close();

@@ -229,7 +229,6 @@ D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB
 D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\bin\Debug\System.Threading.Tasks.Extensions.xml
 D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\obj\Debug\FinalProjectDB.exe.config
-D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\obj\Debug\FinalProjectDB.BankControl.resources
 D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\obj\Debug\FinalProjectDB.Core.resources
 D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\obj\Debug\FinalProjectDB.Properties.Resources.resources
 D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\obj\Debug\FinalProjectDB.csproj.GenerateResource.cache
@@ -245,3 +244,5 @@ C:\Users\Ryan\Desktop\Ryan's Folder\Binus International\Semester 3\Database Syst
 C:\Users\Ryan\Desktop\Ryan's Folder\Binus International\Semester 3\Database System\DB Lec Final Project\FinalProjectDB\FinalProjectDB\obj\Debug\FinalProjectDB.DepartmentForm.resources
 C:\Users\Ryan\Desktop\Ryan's Folder\Binus International\Semester 3\Database System\DB Lec Final Project\FinalProjectDB\FinalProjectDB\obj\Debug\FinalProjectDB.MainForm.resources
 C:\Users\Ryan\Desktop\Ryan's Folder\Binus International\Semester 3\Database System\DB Lec Final Project\FinalProjectDB\FinalProjectDB\obj\Debug\FinalProjectDB.RegisterNewEmployeeForm.resources
+D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\obj\Debug\FinalProjectDB.ContractTypeForm.resources
+D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\obj\Debug\FinalProjectDB.EmployeeEntryFamilyData.resources

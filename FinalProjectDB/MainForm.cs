@@ -50,5 +50,10 @@ namespace FinalProjectDB
         {
             OpenForm(new RegisterNewEmployeeForm());
         }
+
+        private void registerEmployeeFamilyDataToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            OpenForm(new EmployeeEntryFamilyData());
+        }
     }
 }

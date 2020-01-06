@@ -19,6 +19,9 @@ namespace FinalProjectDB
 
         private void RegisterNewEmployeeForm_Load(object sender, EventArgs e)
         {
+            comboBox2.Items.Add("Male");
+            comboBox2.Items.Add("Female");
+
             LoadComboboxBank();
             LoadEmployees();
         }
@@ -49,7 +52,7 @@ namespace FinalProjectDB
             string npwp = textBox7.Text;
             string statusPajak = textBox8.Text;
             DateTime dob = dateTimePicker1.Value;
-            string gender = comboBox2.SelectedValue.ToString();
+            string gender = comboBox2.SelectedItem.ToString()[0].ToString();
             string religion = textBox9.Text;
             string maritalStatus = textBox10.Text;
 
