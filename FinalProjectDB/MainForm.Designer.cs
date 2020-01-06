@@ -44,6 +44,7 @@
             this.reportToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.employeeDetailToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.importDataToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.importPositionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -164,16 +165,25 @@
             // employeeDetailToolStripMenuItem
             // 
             this.employeeDetailToolStripMenuItem.Name = "employeeDetailToolStripMenuItem";
-            this.employeeDetailToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.employeeDetailToolStripMenuItem.Size = new System.Drawing.Size(126, 22);
             this.employeeDetailToolStripMenuItem.Text = "Employee";
             this.employeeDetailToolStripMenuItem.Click += new System.EventHandler(this.employeeDetailToolStripMenuItem_Click);
             // 
             // importDataToolStripMenuItem
             // 
+            this.importDataToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.importPositionToolStripMenuItem});
             this.importDataToolStripMenuItem.Name = "importDataToolStripMenuItem";
             this.importDataToolStripMenuItem.Size = new System.Drawing.Size(82, 20);
             this.importDataToolStripMenuItem.Text = "Import Data";
             this.importDataToolStripMenuItem.Click += new System.EventHandler(this.importDataToolStripMenuItem_Click);
+            // 
+            // importPositionToolStripMenuItem
+            // 
+            this.importPositionToolStripMenuItem.Name = "importPositionToolStripMenuItem";
+            this.importPositionToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.importPositionToolStripMenuItem.Text = "Import Position";
+            this.importPositionToolStripMenuItem.Click += new System.EventHandler(this.importPositionToolStripMenuItem_Click);
             // 
             // MainForm
             // 
@@ -211,5 +221,6 @@
         private System.Windows.Forms.ToolStripMenuItem registerEmployeeFamilyDataToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem employeeDetailToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem importDataToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem importPositionToolStripMenuItem;
     }
 }
