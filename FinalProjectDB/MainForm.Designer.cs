@@ -31,6 +31,7 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.transactionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.registerNewEmployeeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.registerEmployeeFamilyDataToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.masterDataToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.bankToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.branchToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -41,7 +42,8 @@
             this.posToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.transactionTypeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.reportToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.registerEmployeeFamilyDataToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.employeeDetailToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.importDataToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -50,7 +52,8 @@
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.transactionToolStripMenuItem,
             this.masterDataToolStripMenuItem,
-            this.reportToolStripMenuItem});
+            this.reportToolStripMenuItem,
+            this.importDataToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(800, 24);
@@ -69,9 +72,16 @@
             // registerNewEmployeeToolStripMenuItem
             // 
             this.registerNewEmployeeToolStripMenuItem.Name = "registerNewEmployeeToolStripMenuItem";
-            this.registerNewEmployeeToolStripMenuItem.Size = new System.Drawing.Size(236, 22);
+            this.registerNewEmployeeToolStripMenuItem.Size = new System.Drawing.Size(221, 22);
             this.registerNewEmployeeToolStripMenuItem.Text = "Register new Employee";
             this.registerNewEmployeeToolStripMenuItem.Click += new System.EventHandler(this.registerNewEmployeeToolStripMenuItem_Click);
+            // 
+            // registerEmployeeFamilyDataToolStripMenuItem
+            // 
+            this.registerEmployeeFamilyDataToolStripMenuItem.Name = "registerEmployeeFamilyDataToolStripMenuItem";
+            this.registerEmployeeFamilyDataToolStripMenuItem.Size = new System.Drawing.Size(221, 22);
+            this.registerEmployeeFamilyDataToolStripMenuItem.Text = "Entry Employee Family Data";
+            this.registerEmployeeFamilyDataToolStripMenuItem.Click += new System.EventHandler(this.registerEmployeeFamilyDataToolStripMenuItem_Click);
             // 
             // masterDataToolStripMenuItem
             // 
@@ -128,7 +138,6 @@
             this.levelToolStripMenuItem.Size = new System.Drawing.Size(161, 22);
             this.levelToolStripMenuItem.Text = "Level";
             this.levelToolStripMenuItem.Click += new System.EventHandler(this.levelToolStripMenuItem_Click);
-
             // 
             // posToolStripMenuItem
             // 
@@ -136,7 +145,6 @@
             this.posToolStripMenuItem.Size = new System.Drawing.Size(161, 22);
             this.posToolStripMenuItem.Text = "Position";
             this.posToolStripMenuItem.Click += new System.EventHandler(this.posToolStripMenuItem_Click);
-
             // 
             // transactionTypeToolStripMenuItem
             // 
@@ -144,20 +152,28 @@
             this.transactionTypeToolStripMenuItem.Size = new System.Drawing.Size(161, 22);
             this.transactionTypeToolStripMenuItem.Text = "Transaction Type";
             this.transactionTypeToolStripMenuItem.Click += new System.EventHandler(this.transactionTypeToolStripMenuItem_Click);
-
             // 
             // reportToolStripMenuItem
             // 
+            this.reportToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.employeeDetailToolStripMenuItem});
             this.reportToolStripMenuItem.Name = "reportToolStripMenuItem";
             this.reportToolStripMenuItem.Size = new System.Drawing.Size(54, 20);
             this.reportToolStripMenuItem.Text = "Report";
             // 
-            // registerEmployeeFamilyDataToolStripMenuItem
+            // employeeDetailToolStripMenuItem
             // 
-            this.registerEmployeeFamilyDataToolStripMenuItem.Name = "registerEmployeeFamilyDataToolStripMenuItem";
-            this.registerEmployeeFamilyDataToolStripMenuItem.Size = new System.Drawing.Size(221, 22);
-            this.registerEmployeeFamilyDataToolStripMenuItem.Text = "Entry Employee Family Data";
-            this.registerEmployeeFamilyDataToolStripMenuItem.Click += new System.EventHandler(this.registerEmployeeFamilyDataToolStripMenuItem_Click);
+            this.employeeDetailToolStripMenuItem.Name = "employeeDetailToolStripMenuItem";
+            this.employeeDetailToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.employeeDetailToolStripMenuItem.Text = "Employee";
+            this.employeeDetailToolStripMenuItem.Click += new System.EventHandler(this.employeeDetailToolStripMenuItem_Click);
+            // 
+            // importDataToolStripMenuItem
+            // 
+            this.importDataToolStripMenuItem.Name = "importDataToolStripMenuItem";
+            this.importDataToolStripMenuItem.Size = new System.Drawing.Size(82, 20);
+            this.importDataToolStripMenuItem.Text = "Import Data";
+            this.importDataToolStripMenuItem.Click += new System.EventHandler(this.importDataToolStripMenuItem_Click);
             // 
             // MainForm
             // 
@@ -193,5 +209,7 @@
         private System.Windows.Forms.ToolStripMenuItem reportToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem registerNewEmployeeToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem registerEmployeeFamilyDataToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem employeeDetailToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem importDataToolStripMenuItem;
     }
 }
