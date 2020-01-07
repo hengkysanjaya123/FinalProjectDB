@@ -129,7 +129,10 @@
     <Compile Include="core.Designer.cs">
       <DependentUpon>core.cs</DependentUpon>
     </Compile>
+    <Compile Include="Models\EmployeeAddress.cs" />
+    <Compile Include="Models\EmployeeEducation.cs" />
     <Compile Include="Models\EmployeeFamily.cs" />
+    <Compile Include="Models\EmployeeJobHistory.cs" />
     <Compile Include="Models\EmployeeRelationship.cs" />
     <Compile Include="Models\Department.cs" />
     <Compile Include="Models\Employee.cs" />
@@ -138,6 +141,7 @@
     <Compile Include="Models\EmployeePhone.cs" />
     <Compile Include="Models\Level.cs" />
     <Compile Include="Models\Pos.cs" />
+    <Compile Include="Models\Transaction.cs" />
     <Compile Include="PosForm.cs">
       <SubType>Form</SubType>
     </Compile>
