@@ -11,9 +11,9 @@ namespace FinalProjectDB
     class EmployeeEmail
     {
         private DBConnection conn = new DBConnection();
-        private int id;
-        private int NIK;
-        private string emailAddress;
+        public int Id { get; set; }
+        public int NIK { get; set; }
+        public string emailAddress { get; set; }
 
         public EmployeeEmail()
         {
@@ -27,7 +27,7 @@ namespace FinalProjectDB
 
         public EmployeeEmail(int id, int nIK, string emailAddress)
         {
-            this.id = id;
+            this.Id = id;
             NIK = nIK;
             this.emailAddress = emailAddress;
         }
@@ -49,10 +49,10 @@ namespace FinalProjectDB
             }
             catch (MySqlException ex)
             {
-                MessageBox.Show("Error:", ex.Message);
+                MessageBox.Show("Error:", ex.ToString());
             }
         }
-        public List<EmployeeEmail> RetrieveEmailAddress()
+        public List<EmployeeEmail> RetrieveEmailAddress(int retNIK)
         {
             try
             {
@@ -60,23 +60,62 @@ namespace FinalProjectDB
                 MySqlConnection connection = conn.OpenConnection();
                 connection.Open();
                 MySqlCommand getEmail = connection.CreateCommand();
-                getEmail.CommandText = "SELECT * FROM employee_email";
+                getEmail.CommandText = "SELECT * FROM employee_email WHERE NIK = @nik";
+                getEmail.Parameters.AddWithValue("@nik", retNIK);
                 MySqlDataReader emailAddresses = getEmail.ExecuteReader();
                 while (emailAddresses.Read())
                 {
                     int thisid = emailAddresses.GetInt32(0);
                     int thisNIK = emailAddresses.GetInt32(1);
-                    string thisname = emailAddresses.GetString(2);
-                    emailAddressList.Add(new EmployeeEmail(Convert.ToInt32(thisid), thisNIK, thisname));
+                    string thisEmailAddress = emailAddresses.GetString(2);
+                    emailAddressList.Add(new EmployeeEmail(Convert.ToInt32(thisid), thisNIK, thisEmailAddress));
                 }
                 connection.Close();
                 return emailAddressList;
             }
             catch (MySqlException ex)
             {
-                MessageBox.Show("Error:", ex.Message);
+                MessageBox.Show("Error:", ex.ToString());
                 return null;
             }
+        }
+        public void UpdateEmployeeEmail()
+        {
+            try
+            {
+                MySqlConnection connection = conn.OpenConnection();
+                connection.Open();
+                MySqlCommand comd = connection.CreateCommand();
+                comd.CommandText = "UPDATE employee_email SET emailaddress = @emailaddress WHERE NIK = @nik";
+                comd.Parameters.AddWithValue("@emailaddress", emailAddress);
+                comd.Parameters.AddWithValue("@nik", NIK);
+                comd.ExecuteNonQuery();
+                MessageBox.Show("Data Updated Successfully!");
+                connection.Close();
+            }
+            catch (MySqlException ex)
+            {
+                MessageBox.Show("Error:", ex.ToString());
+            }
+        }
+        public void DeleteEmployeeEmail(int id)
+        {
+            try
+            {
+                MySqlConnection connection = conn.OpenConnection();
+                connection.Open();
+                MySqlCommand comd = connection.CreateCommand();
+                comd.CommandText = "DELETE FROM employee_email WHERE ID = @id";
+                comd.Parameters.AddWithValue("@id", id);
+                comd.ExecuteNonQuery();
+                MessageBox.Show("Data Deleted Successfully!");
+                connection.Close();
+            }
+            catch (MySqlException ex)
+            {
+                MessageBox.Show("Error:", ex.ToString());
+            }
+
         }
     }
 }

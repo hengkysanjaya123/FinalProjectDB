@@ -8,45 +8,45 @@ using System.Windows.Forms;
 
 namespace FinalProjectDB.Models
 {
-    class EmployeePhone
+    class EmployeeJobHistory
     {
         DBConnection conn = new DBConnection();
         public int Id { get; set; }
         public int NIK { get; set; }
-        public string phoneNumber { get; set; }
-        public string phoneType { get; set; }
+        public string Company { get; set; }
+        public string Pos { get; set; }
 
-        public EmployeePhone()
+        public EmployeeJobHistory()
         {
         }
 
-        public EmployeePhone(int nIK, string phoneNumber, string phoneType)
+        public EmployeeJobHistory(int nIK, string company, string pos)
         {
             NIK = nIK;
-            this.phoneNumber = phoneNumber;
-            this.phoneType = phoneType;
+            Company = company;
+            Pos = pos;
         }
 
-        public EmployeePhone(int id, int nIK, string phoneNumber, string phoneType)
+        public EmployeeJobHistory(int id, int nIK, string company, string pos)
         {
             Id = id;
             NIK = nIK;
-            this.phoneNumber = phoneNumber;
-            this.phoneType = phoneType;
+            Company = company;
+            Pos = pos;
         }
 
-        public void AddEmployeePhone()
+        public void AddJobHistory()
         {
             try
             {
                 MySqlConnection connection = conn.OpenConnection();
                 connection.Open();
                 MySqlCommand comd = connection.CreateCommand();
-                comd.CommandText = "INSERT INTO employee_phones(NIK, PhoneNumber, PhoneType) VALUES " +
-                    "(@nik, @phonenumber, phonetype)";
+                comd.CommandText = "INSERT INTO employeejobhistory(NIK, Company, Pos) VALUES " +
+                    "(@nik, @company, @pos)";
                 comd.Parameters.AddWithValue("@nik", NIK);
-                comd.Parameters.AddWithValue("@phonenumber", phoneNumber);
-                comd.Parameters.AddWithValue("@phonetype", phoneType);
+                comd.Parameters.AddWithValue("@company", Company);
+                comd.Parameters.AddWithValue("@pos", Pos);
                 comd.ExecuteNonQuery();
                 MessageBox.Show("Data Inserted Successfully!");
                 connection.Close();
@@ -56,46 +56,44 @@ namespace FinalProjectDB.Models
                 MessageBox.Show("Error:", ex.ToString());
             }
         }
-        public List<EmployeePhone> RetrievePhoneNumbers(int retNIK)
+        public List<EmployeeJobHistory> RetrieveJobHistory(int retNIK)
         {
             try
             {
-                List<EmployeePhone> phoneNumbersList = new List<EmployeePhone>();
+                List<EmployeeJobHistory> jobHistoryList = new List<EmployeeJobHistory>();
                 MySqlConnection connection = conn.OpenConnection();
                 connection.Open();
                 MySqlCommand comd = connection.CreateCommand();
-                comd.CommandText = "SELECT * FROM employee_phones WHERE NIK = @nik";
+                comd.CommandText = "SELECT * FROM employeejobhistory WHERE NIK = @nik";
                 comd.Parameters.AddWithValue("@nik", retNIK);
-                MySqlDataReader phoneNumbers = comd.ExecuteReader();
-                while (phoneNumbers.Read())
+                MySqlDataReader jobhistories = comd.ExecuteReader();
+                while (jobhistories.Read())
                 {
-                    int thisid = phoneNumbers.GetInt32(0);
-                    int thisNIK = phoneNumbers.GetInt32(1);
-                    string thisphonenumber = phoneNumbers.GetString(2);
-                    string thisphonetype = phoneNumbers.GetString(3);
-                    phoneNumbersList.Add(new EmployeePhone(Convert.ToInt32(thisid), thisNIK, thisphonenumber, thisphonetype));
+                    int thisid = jobhistories.GetInt32(0);
+                    int thisNIK = jobhistories.GetInt32(1);
+                    string thisCompany = jobhistories.GetString(2);
+                    string thisPos = jobhistories.GetString(3);
+                    jobHistoryList.Add(new EmployeeJobHistory(Convert.ToInt32(thisid), Convert.ToInt32(thisNIK), thisCompany, thisPos));
                 }
                 connection.Close();
-                return phoneNumbersList;
+                return jobHistoryList;
             }
             catch (MySqlException ex)
             {
-                MessageBox.Show("Error:", ex.Message);
+                MessageBox.Show("Error:", ex.ToString());
                 return null;
             }
         }
-        public void UpdateEmployeePhone()
+        public void UpdateJobHistory()
         {
             try
             {
                 MySqlConnection connection = conn.OpenConnection();
                 connection.Open();
                 MySqlCommand comd = connection.CreateCommand();
-                comd.CommandText = "UPDATE employee_phones SET PhoneNumber = @phonenumber," +
-                    " PhoneType = @phonetype" +
-                    " WHERE NIK = @nik";
-                comd.Parameters.AddWithValue("@phonenumber", phoneNumber);
-                comd.Parameters.AddWithValue("@phonetype", phoneType);
+                comd.CommandText = "UPDATE employeejobhistory SET Company = @company, Pos = @pos WHERE NIK = @nik";
+                comd.Parameters.AddWithValue("@company", Company);
+                comd.Parameters.AddWithValue("@pos", Pos);
                 comd.Parameters.AddWithValue("@nik", NIK);
                 comd.ExecuteNonQuery();
                 MessageBox.Show("Data Updated Successfully!");
@@ -106,14 +104,14 @@ namespace FinalProjectDB.Models
                 MessageBox.Show("Error:", ex.ToString());
             }
         }
-        public void DeleteEmployeePhone(int id)
+        public void DeleteJobHistory(int id)
         {
             try
             {
                 MySqlConnection connection = conn.OpenConnection();
                 connection.Open();
                 MySqlCommand comd = connection.CreateCommand();
-                comd.CommandText = "DELETE FROM employee_phones WHERE ID = @id";
+                comd.CommandText = "DELETE FROM employeejobhistory WHERE ID = @id";
                 comd.Parameters.AddWithValue("@id", id);
                 comd.ExecuteNonQuery();
                 MessageBox.Show("Data Deleted Successfully!");

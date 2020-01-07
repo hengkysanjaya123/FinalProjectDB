@@ -116,12 +116,59 @@ namespace FinalProjectDB
 
         public void UpdateEmployee()
         {
+            try
+            {
+                MySqlConnection connection = conn.OpenConnection();
+                connection.Open();
+                MySqlCommand comd = connection.CreateCommand();
+                comd.CommandText = "UPDATE employee SET Fullname = @fullname, Nickname = @nickname, " +
+                    "KTP = @ktp, Jamsostek = @jamsostek, " +
+                    "BankID = @bankid, Rekening = @rekening, " +
+                    "NPWP = @npwp, StatusPajak = @statuspajak, " +
+                    "DOB = @dob, Gender = @gender, " +
+                    "Relgion = @religion, MaritalStatus = @maritalstatus" +
+                    " WHERE NIK = @nik";
+                comd.Parameters.AddWithValue("@fullname", fullName);
+                comd.Parameters.AddWithValue("@nickname", nickname);
+                comd.Parameters.AddWithValue("@ktp", KTP);
+                comd.Parameters.AddWithValue("@jamsostek", jamsostek);
+                comd.Parameters.AddWithValue("@bankid", bankID);
+                comd.Parameters.AddWithValue("@rekening", rekening);
+                comd.Parameters.AddWithValue("@npwp", NPWP);
+                comd.Parameters.AddWithValue("@statuspajak", statusPajak);
+                comd.Parameters.AddWithValue("@dob", DOB);
+                comd.Parameters.AddWithValue("@gender", gender);
+                comd.Parameters.AddWithValue("@religion", religion);
+                comd.Parameters.AddWithValue("@maritalstatus", maritalStatus);
+                comd.Parameters.AddWithValue("@NIK", NIK);
+                comd.ExecuteNonQuery();
+                MessageBox.Show("Data Updated Successfully!");
+                connection.Close();
+            }
+            catch (MySqlException ex)
+            {
+                MessageBox.Show("Error:", ex.Message);
+            }
 
         }
 
-        public void DeleteEmployee()
+        public void DeleteEmployee(int delNIK)
         {
-
+            try
+            {
+                MySqlConnection connection = conn.OpenConnection();
+                connection.Open();
+                MySqlCommand comd = connection.CreateCommand();
+                comd.CommandText = "DELETE FROM employee WHERE NIK = @nik";
+                comd.Parameters.AddWithValue("@nik", delNIK);
+                comd.ExecuteNonQuery();
+                MessageBox.Show("Data Deleted Successfully!");
+                connection.Close();
+            }
+            catch (MySqlException ex)
+            {
+                MessageBox.Show("Error:", ex.Message);
+            }
         }
 
 
