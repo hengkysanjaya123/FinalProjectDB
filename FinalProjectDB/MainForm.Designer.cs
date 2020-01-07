@@ -29,6 +29,8 @@
         private void InitializeComponent()
         {
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.fieToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.logoutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.transactionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.registerNewEmployeeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.registerEmployeeFamilyDataToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -46,8 +48,12 @@
             this.transactionReportFormToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.importDataToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.importPositionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.fieToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.logoutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.contractTypeToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.branchToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.bankToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.levelToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.transactionTypeToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.departmentToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -64,6 +70,21 @@
             this.menuStrip1.Size = new System.Drawing.Size(800, 24);
             this.menuStrip1.TabIndex = 3;
             this.menuStrip1.Text = "menuStrip1";
+            // 
+            // fieToolStripMenuItem
+            // 
+            this.fieToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.logoutToolStripMenuItem});
+            this.fieToolStripMenuItem.Name = "fieToolStripMenuItem";
+            this.fieToolStripMenuItem.Size = new System.Drawing.Size(80, 20);
+            this.fieToolStripMenuItem.Text = "Main Menu";
+            // 
+            // logoutToolStripMenuItem
+            // 
+            this.logoutToolStripMenuItem.Name = "logoutToolStripMenuItem";
+            this.logoutToolStripMenuItem.Size = new System.Drawing.Size(112, 22);
+            this.logoutToolStripMenuItem.Text = "Logout";
+            this.logoutToolStripMenuItem.Click += new System.EventHandler(this.logoutToolStripMenuItem_Click);
             // 
             // transactionToolStripMenuItem
             // 
@@ -184,7 +205,13 @@
             // importDataToolStripMenuItem
             // 
             this.importDataToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.importPositionToolStripMenuItem});
+            this.importPositionToolStripMenuItem,
+            this.contractTypeToolStripMenuItem1,
+            this.branchToolStripMenuItem1,
+            this.bankToolStripMenuItem1,
+            this.levelToolStripMenuItem1,
+            this.transactionTypeToolStripMenuItem1,
+            this.departmentToolStripMenuItem1});
             this.importDataToolStripMenuItem.Name = "importDataToolStripMenuItem";
             this.importDataToolStripMenuItem.Size = new System.Drawing.Size(82, 20);
             this.importDataToolStripMenuItem.Text = "Import Data";
@@ -193,24 +220,51 @@
             // importPositionToolStripMenuItem
             // 
             this.importPositionToolStripMenuItem.Name = "importPositionToolStripMenuItem";
-            this.importPositionToolStripMenuItem.Size = new System.Drawing.Size(156, 22);
-            this.importPositionToolStripMenuItem.Text = "Import Position";
+            this.importPositionToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.importPositionToolStripMenuItem.Text = "Position";
             this.importPositionToolStripMenuItem.Click += new System.EventHandler(this.importPositionToolStripMenuItem_Click);
             // 
-            // fieToolStripMenuItem
+            // contractTypeToolStripMenuItem1
             // 
-            this.fieToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.logoutToolStripMenuItem});
-            this.fieToolStripMenuItem.Name = "fieToolStripMenuItem";
-            this.fieToolStripMenuItem.Size = new System.Drawing.Size(80, 20);
-            this.fieToolStripMenuItem.Text = "Main Menu";
+            this.contractTypeToolStripMenuItem1.Name = "contractTypeToolStripMenuItem1";
+            this.contractTypeToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.contractTypeToolStripMenuItem1.Text = "Contract Type";
+            this.contractTypeToolStripMenuItem1.Click += new System.EventHandler(this.contractTypeToolStripMenuItem1_Click);
             // 
-            // logoutToolStripMenuItem
+            // branchToolStripMenuItem1
             // 
-            this.logoutToolStripMenuItem.Name = "logoutToolStripMenuItem";
-            this.logoutToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.logoutToolStripMenuItem.Text = "Logout";
-            this.logoutToolStripMenuItem.Click += new System.EventHandler(this.logoutToolStripMenuItem_Click);
+            this.branchToolStripMenuItem1.Name = "branchToolStripMenuItem1";
+            this.branchToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.branchToolStripMenuItem1.Text = "Branch";
+            this.branchToolStripMenuItem1.Click += new System.EventHandler(this.branchToolStripMenuItem1_Click);
+            // 
+            // bankToolStripMenuItem1
+            // 
+            this.bankToolStripMenuItem1.Name = "bankToolStripMenuItem1";
+            this.bankToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.bankToolStripMenuItem1.Text = "Bank";
+            this.bankToolStripMenuItem1.Click += new System.EventHandler(this.bankToolStripMenuItem1_Click);
+            // 
+            // levelToolStripMenuItem1
+            // 
+            this.levelToolStripMenuItem1.Name = "levelToolStripMenuItem1";
+            this.levelToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.levelToolStripMenuItem1.Text = "Level";
+            this.levelToolStripMenuItem1.Click += new System.EventHandler(this.levelToolStripMenuItem1_Click);
+            // 
+            // transactionTypeToolStripMenuItem1
+            // 
+            this.transactionTypeToolStripMenuItem1.Name = "transactionTypeToolStripMenuItem1";
+            this.transactionTypeToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.transactionTypeToolStripMenuItem1.Text = "Transaction Type";
+            this.transactionTypeToolStripMenuItem1.Click += new System.EventHandler(this.transactionTypeToolStripMenuItem1_Click);
+            // 
+            // departmentToolStripMenuItem1
+            // 
+            this.departmentToolStripMenuItem1.Name = "departmentToolStripMenuItem1";
+            this.departmentToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.departmentToolStripMenuItem1.Text = "Department";
+            this.departmentToolStripMenuItem1.Click += new System.EventHandler(this.departmentToolStripMenuItem1_Click);
             // 
             // MainForm
             // 
@@ -252,5 +306,11 @@
         private System.Windows.Forms.ToolStripMenuItem transactionReportFormToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem fieToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem logoutToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem contractTypeToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem branchToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem bankToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem levelToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem transactionTypeToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem departmentToolStripMenuItem1;
     }
 }

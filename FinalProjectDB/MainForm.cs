@@ -112,7 +112,7 @@ namespace FinalProjectDB
                     cmd.ExecuteNonQuery();
 
 
-                    MessageBox.Show("Data Inserted Successfully!");
+                    MessageBox.Show("Data Imported Successfully!");
                     connection.Close();
                 }
             }
@@ -131,6 +131,258 @@ namespace FinalProjectDB
         {
             core.formLogin.Show();
             this.Close();
+        }
+
+        private void contractTypeToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                OpenFileDialog op = new OpenFileDialog();
+                op.Filter = "CSV Files|*.csv";
+                if (op.ShowDialog() == DialogResult.OK)
+                {
+                    StreamReader reader = new StreamReader(op.FileName);
+                    string line = "";
+                    reader.ReadLine(); // skip header
+
+                    string query = "INSERT INTO contracttype (Name) VALUES ";
+                    string values = "";
+                    while ((line = reader.ReadLine()) != null)
+                    {
+                        values += "('" + line.ToString() + "'),";
+                    }
+                    values = values.Substring(0, values.Length - 1);
+
+                    query = query + values;
+
+                    DBConnection conn = new DBConnection();
+                    MySqlConnection connection = conn.OpenConnection();
+                    connection.Open();
+
+                    Console.WriteLine(query);
+                    MySqlCommand cmd = connection.CreateCommand();
+                    cmd.CommandText = query;
+                    cmd.ExecuteNonQuery();
+
+
+                    MessageBox.Show("Data Imported Successfully!");
+                    connection.Close();
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+        }
+
+        private void branchToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                OpenFileDialog op = new OpenFileDialog();
+                op.Filter = "CSV Files|*.csv";
+                if (op.ShowDialog() == DialogResult.OK)
+                {
+                    StreamReader reader = new StreamReader(op.FileName);
+                    string line = "";
+                    reader.ReadLine(); // skip header
+
+                    string query = "INSERT INTO branch (Name) VALUES ";
+                    string values = "";
+                    while ((line = reader.ReadLine()) != null)
+                    {
+                        values += "('" + line.ToString() + "'),";
+                    }
+                    values = values.Substring(0, values.Length - 1);
+
+                    query = query + values;
+
+                    DBConnection conn = new DBConnection();
+                    MySqlConnection connection = conn.OpenConnection();
+                    connection.Open();
+
+                    Console.WriteLine(query);
+                    MySqlCommand cmd = connection.CreateCommand();
+                    cmd.CommandText = query;
+                    cmd.ExecuteNonQuery();
+
+
+                    MessageBox.Show("Data Imported Successfully!");
+                    connection.Close();
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+        }
+
+        private void bankToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                OpenFileDialog op = new OpenFileDialog();
+                op.Filter = "CSV Files|*.csv";
+                if (op.ShowDialog() == DialogResult.OK)
+                {
+                    StreamReader reader = new StreamReader(op.FileName);
+                    string line = "";
+                    reader.ReadLine(); // skip header
+
+                    string query = "INSERT INTO bank (Name) VALUES ";
+                    string values = "";
+                    while ((line = reader.ReadLine()) != null)
+                    {
+                        values += "('" + line.ToString() + "'),";
+                    }
+                    values = values.Substring(0, values.Length - 1);
+
+                    query = query + values;
+
+                    DBConnection conn = new DBConnection();
+                    MySqlConnection connection = conn.OpenConnection();
+                    connection.Open();
+
+                    Console.WriteLine(query);
+                    MySqlCommand cmd = connection.CreateCommand();
+                    cmd.CommandText = query;
+                    cmd.ExecuteNonQuery();
+
+
+                    MessageBox.Show("Data Imported Successfully!");
+                    connection.Close();
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+        }
+
+        private void levelToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                OpenFileDialog op = new OpenFileDialog();
+                op.Filter = "CSV Files|*.csv";
+                if (op.ShowDialog() == DialogResult.OK)
+                {
+                    StreamReader reader = new StreamReader(op.FileName);
+                    string line = "";
+                    reader.ReadLine(); // skip header
+
+                    string query = "INSERT INTO level (Name) VALUES ";
+                    string values = "";
+                    while ((line = reader.ReadLine()) != null)
+                    {
+                        values += "('" + line.ToString() + "'),";
+                    }
+                    values = values.Substring(0, values.Length - 1);
+
+                    query = query + values;
+
+                    DBConnection conn = new DBConnection();
+                    MySqlConnection connection = conn.OpenConnection();
+                    connection.Open();
+
+                    Console.WriteLine(query);
+                    MySqlCommand cmd = connection.CreateCommand();
+                    cmd.CommandText = query;
+                    cmd.ExecuteNonQuery();
+
+
+                    MessageBox.Show("Data Imported Successfully!");
+                    connection.Close();
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+        }
+
+        private void transactionTypeToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                OpenFileDialog op = new OpenFileDialog();
+                op.Filter = "CSV Files|*.csv";
+                if (op.ShowDialog() == DialogResult.OK)
+                {
+                    StreamReader reader = new StreamReader(op.FileName);
+                    string line = "";
+                    reader.ReadLine(); // skip header
+
+                    string query = "INSERT INTO transactiontype (Name) VALUES ";
+                    string values = "";
+                    while ((line = reader.ReadLine()) != null)
+                    {
+                        values += "('" + line.ToString() + "'),";
+                    }
+                    values = values.Substring(0, values.Length - 1);
+
+                    query = query + values;
+
+                    DBConnection conn = new DBConnection();
+                    MySqlConnection connection = conn.OpenConnection();
+                    connection.Open();
+
+                    Console.WriteLine(query);
+                    MySqlCommand cmd = connection.CreateCommand();
+                    cmd.CommandText = query;
+                    cmd.ExecuteNonQuery();
+
+
+                    MessageBox.Show("Data Imported Successfully!");
+                    connection.Close();
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+        }
+
+        private void departmentToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                OpenFileDialog op = new OpenFileDialog();
+                op.Filter = "CSV Files|*.csv";
+                if (op.ShowDialog() == DialogResult.OK)
+                {
+                    StreamReader reader = new StreamReader(op.FileName);
+                    string line = "";
+                    reader.ReadLine(); // skip header
+
+                    string query = "INSERT INTO department (Name) VALUES ";
+                    string values = "";
+                    while ((line = reader.ReadLine()) != null)
+                    {
+                        values += "('" + line.ToString() + "'),";
+                    }
+                    values = values.Substring(0, values.Length - 1);
+
+                    query = query + values;
+
+                    DBConnection conn = new DBConnection();
+                    MySqlConnection connection = conn.OpenConnection();
+                    connection.Open();
+
+                    Console.WriteLine(query);
+                    MySqlCommand cmd = connection.CreateCommand();
+                    cmd.CommandText = query;
+                    cmd.ExecuteNonQuery();
+
+
+                    MessageBox.Show("Data Imported Successfully!");
+                    connection.Close();
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
         }
     }
 }
