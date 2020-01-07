@@ -108,11 +108,23 @@
     <Compile Include="DepartmentForm.Designer.cs">
       <DependentUpon>DepartmentForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="EmployeeEntryEmailData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EmployeeEntryEmailData.Designer.cs">
+      <DependentUpon>EmployeeEntryEmailData.cs</DependentUpon>
+    </Compile>
     <Compile Include="EmployeeEntryFamilyData.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="EmployeeEntryFamilyData.Designer.cs">
       <DependentUpon>EmployeeEntryFamilyData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EmployeeEntryPhoneData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EmployeeEntryPhoneData.Designer.cs">
+      <DependentUpon>EmployeeEntryPhoneData.cs</DependentUpon>
     </Compile>
     <Compile Include="LevelForm.cs">
       <SubType>Form</SubType>
@@ -199,8 +211,14 @@
     <EmbeddedResource Include="DepartmentForm.resx">
       <DependentUpon>DepartmentForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="EmployeeEntryEmailData.resx">
+      <DependentUpon>EmployeeEntryEmailData.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="EmployeeEntryFamilyData.resx">
       <DependentUpon>EmployeeEntryFamilyData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmployeeEntryPhoneData.resx">
+      <DependentUpon>EmployeeEntryPhoneData.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>

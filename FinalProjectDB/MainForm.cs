@@ -71,6 +71,16 @@ namespace FinalProjectDB
             OpenForm(new EmployeeEntryFamilyData());
         }
 
+        private void registerEmployeePhoneDataToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            OpenForm(new EmployeeEntryPhoneData());
+        }
+        private void registerEmployeeEmailDataToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            OpenForm(new EmployeeEntryEmailData());
+        }
+
+
         private void employeeDetailToolStripMenuItem_Click(object sender, EventArgs e)
         {
             OpenForm(new EmployeeReportForm());
@@ -383,6 +393,11 @@ namespace FinalProjectDB
             {
                 MessageBox.Show(ex.Message);
             }
+        }
+
+        private void TransactionToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
