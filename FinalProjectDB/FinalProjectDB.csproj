@@ -90,6 +90,12 @@
     <Compile Include="BranchForm.Designer.cs">
       <DependentUpon>BranchForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="CompanyReportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CompanyReportForm.Designer.cs">
+      <DependentUpon>CompanyReportForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="ContractTypeForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -113,6 +119,12 @@
     </Compile>
     <Compile Include="LevelForm.Designer.cs">
       <DependentUpon>LevelForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginForm.Designer.cs">
+      <DependentUpon>LoginForm.cs</DependentUpon>
     </Compile>
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
@@ -157,14 +169,23 @@
     <Compile Include="RegisterNewEmployeeForm.Designer.cs">
       <DependentUpon>RegisterNewEmployeeForm.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="CompanyReportForm.resx">
+      <DependentUpon>CompanyReportForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ContractTypeForm.resx">
       <DependentUpon>ContractTypeForm.cs</DependentUpon>
     </EmbeddedResource>
-    <Compile Include="ReportForm.cs">
+    <Compile Include="EmployeeReportForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ReportForm.Designer.cs">
-      <DependentUpon>ReportForm.cs</DependentUpon>
+    <Compile Include="EmployeeReportForm.Designer.cs">
+      <DependentUpon>EmployeeReportForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TransactionFormReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TransactionFormReport.Designer.cs">
+      <DependentUpon>TransactionFormReport.cs</DependentUpon>
     </Compile>
     <Compile Include="TransactionTypeForm.cs">
       <SubType>Form</SubType>
@@ -181,6 +202,9 @@
     <EmbeddedResource Include="EmployeeEntryFamilyData.resx">
       <DependentUpon>EmployeeEntryFamilyData.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="LoginForm.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -192,12 +216,16 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="RegisterNewEmployeeForm.resx">
       <DependentUpon>RegisterNewEmployeeForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ReportForm.resx">
-      <DependentUpon>ReportForm.cs</DependentUpon>
+    <EmbeddedResource Include="EmployeeReportForm.resx">
+      <DependentUpon>EmployeeReportForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TransactionFormReport.resx">
+      <DependentUpon>TransactionFormReport.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -212,6 +240,24 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\494-4946579_hrms-human-resource-management-system-recruitment-clipart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sharepoint-hr-portal-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\empresa-human-resource-management-training-teacher-education-capacitacion.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images1.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\human-resource-png-5.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

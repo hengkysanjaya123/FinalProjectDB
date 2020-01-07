@@ -12,6 +12,10 @@ namespace FinalProjectDB
 {
     public partial class core : Form
     {
+        public static string currentRole;
+        public static LoginForm formLogin;
+
+
         public core()
         {
             InitializeComponent();

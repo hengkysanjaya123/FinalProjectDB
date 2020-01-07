@@ -43,14 +43,18 @@
             this.transactionTypeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.reportToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.employeeDetailToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.transactionReportFormToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.importDataToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.importPositionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.fieToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.logoutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuStrip1
             // 
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.fieToolStripMenuItem,
             this.transactionToolStripMenuItem,
             this.masterDataToolStripMenuItem,
             this.reportToolStripMenuItem,
@@ -157,7 +161,8 @@
             // reportToolStripMenuItem
             // 
             this.reportToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.employeeDetailToolStripMenuItem});
+            this.employeeDetailToolStripMenuItem,
+            this.transactionReportFormToolStripMenuItem});
             this.reportToolStripMenuItem.Name = "reportToolStripMenuItem";
             this.reportToolStripMenuItem.Size = new System.Drawing.Size(54, 20);
             this.reportToolStripMenuItem.Text = "Report";
@@ -165,9 +170,16 @@
             // employeeDetailToolStripMenuItem
             // 
             this.employeeDetailToolStripMenuItem.Name = "employeeDetailToolStripMenuItem";
-            this.employeeDetailToolStripMenuItem.Size = new System.Drawing.Size(126, 22);
+            this.employeeDetailToolStripMenuItem.Size = new System.Drawing.Size(203, 22);
             this.employeeDetailToolStripMenuItem.Text = "Employee";
             this.employeeDetailToolStripMenuItem.Click += new System.EventHandler(this.employeeDetailToolStripMenuItem_Click);
+            // 
+            // transactionReportFormToolStripMenuItem
+            // 
+            this.transactionReportFormToolStripMenuItem.Name = "transactionReportFormToolStripMenuItem";
+            this.transactionReportFormToolStripMenuItem.Size = new System.Drawing.Size(203, 22);
+            this.transactionReportFormToolStripMenuItem.Text = "Transaction Report Form";
+            this.transactionReportFormToolStripMenuItem.Click += new System.EventHandler(this.transactionReportFormToolStripMenuItem_Click);
             // 
             // importDataToolStripMenuItem
             // 
@@ -181,9 +193,24 @@
             // importPositionToolStripMenuItem
             // 
             this.importPositionToolStripMenuItem.Name = "importPositionToolStripMenuItem";
-            this.importPositionToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.importPositionToolStripMenuItem.Size = new System.Drawing.Size(156, 22);
             this.importPositionToolStripMenuItem.Text = "Import Position";
             this.importPositionToolStripMenuItem.Click += new System.EventHandler(this.importPositionToolStripMenuItem_Click);
+            // 
+            // fieToolStripMenuItem
+            // 
+            this.fieToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.logoutToolStripMenuItem});
+            this.fieToolStripMenuItem.Name = "fieToolStripMenuItem";
+            this.fieToolStripMenuItem.Size = new System.Drawing.Size(80, 20);
+            this.fieToolStripMenuItem.Text = "Main Menu";
+            // 
+            // logoutToolStripMenuItem
+            // 
+            this.logoutToolStripMenuItem.Name = "logoutToolStripMenuItem";
+            this.logoutToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.logoutToolStripMenuItem.Text = "Logout";
+            this.logoutToolStripMenuItem.Click += new System.EventHandler(this.logoutToolStripMenuItem_Click);
             // 
             // MainForm
             // 
@@ -222,5 +249,8 @@
         private System.Windows.Forms.ToolStripMenuItem employeeDetailToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem importDataToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem importPositionToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem transactionReportFormToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem fieToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem logoutToolStripMenuItem;
     }
 }

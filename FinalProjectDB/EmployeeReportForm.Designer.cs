@@ -1,6 +1,6 @@
 ﻿namespace FinalProjectDB
 {
-    partial class ReportForm
+    partial class EmployeeReportForm
     {
         /// <summary>
         /// Required designer variable.

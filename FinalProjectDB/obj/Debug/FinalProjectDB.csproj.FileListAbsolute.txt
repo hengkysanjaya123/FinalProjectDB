@@ -246,7 +246,10 @@ C:\Users\Ryan\Desktop\Ryan's Folder\Binus International\Semester 3\Database Syst
 C:\Users\Ryan\Desktop\Ryan's Folder\Binus International\Semester 3\Database System\DB Lec Final Project\FinalProjectDB\FinalProjectDB\obj\Debug\FinalProjectDB.RegisterNewEmployeeForm.resources
 D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\obj\Debug\FinalProjectDB.ContractTypeForm.resources
 D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\obj\Debug\FinalProjectDB.EmployeeEntryFamilyData.resources
-D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\obj\Debug\FinalProjectDB.ReportForm.resources
 C:\Users\Ryan\Desktop\Ryan's Folder\Binus International\Semester 3\Database System\DB Lec Final Project\FinalProjectDB\FinalProjectDB\obj\Debug\FinalProjectDB.ContractTypeForm.resources
 C:\Users\Ryan\Desktop\Ryan's Folder\Binus International\Semester 3\Database System\DB Lec Final Project\FinalProjectDB\FinalProjectDB\obj\Debug\FinalProjectDB.EmployeeEntryFamilyData.resources
 C:\Users\Ryan\Desktop\Ryan's Folder\Binus International\Semester 3\Database System\DB Lec Final Project\FinalProjectDB\FinalProjectDB\obj\Debug\FinalProjectDB.ReportForm.resources
+D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\obj\Debug\FinalProjectDB.CompanyReportForm.resources
+D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\obj\Debug\FinalProjectDB.EmployeeReportForm.resources
+D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\obj\Debug\FinalProjectDB.TransactionFormReport.resources
+D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\obj\Debug\FinalProjectDB.LoginForm.resources

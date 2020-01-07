@@ -73,7 +73,7 @@ namespace FinalProjectDB
 
         private void employeeDetailToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            OpenForm(new ReportForm());
+            OpenForm(new EmployeeReportForm());
         }
 
         private void importDataToolStripMenuItem_Click(object sender, EventArgs e)
@@ -120,6 +120,17 @@ namespace FinalProjectDB
             {
                 MessageBox.Show(ex.Message);
             }
+        }
+
+        private void transactionReportFormToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            OpenForm(new TransactionFormReport());
+        }
+
+        private void logoutToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            core.formLogin.Show();
+            this.Close();
         }
     }
 }

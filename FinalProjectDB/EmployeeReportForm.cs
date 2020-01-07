@@ -12,9 +12,9 @@ using System.Windows.Forms.DataVisualization.Charting;
 
 namespace FinalProjectDB
 {
-    public partial class ReportForm : core
+    public partial class EmployeeReportForm : core
     {
-        public ReportForm()
+        public EmployeeReportForm()
         {
             InitializeComponent();
         }
