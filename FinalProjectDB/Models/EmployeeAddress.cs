@@ -43,7 +43,7 @@ namespace FinalProjectDB.Models
                 connection.Open();
                 MySqlCommand comd = connection.CreateCommand();
                 comd.CommandText = "INSERT INTO employeeaddress(AddressDetail, EmployeeNIK, type) VALUES " +
-                    "(@addressdetail, @nik, addresstype)";
+                    "(@addressdetail, @nik, @addresstype)";
                 comd.Parameters.AddWithValue("@addressdetail", addressDetail);
                 comd.Parameters.AddWithValue("@nik", NIK);
                 comd.Parameters.AddWithValue("@addresstype", addressType);
