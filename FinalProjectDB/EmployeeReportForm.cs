@@ -54,7 +54,8 @@ namespace FinalProjectDB
             dt.Columns.Add("Total");
             while (reader.Read())
             {
-                dt.Rows.Add(reader.GetString("Gender") == "M" ? "Male" : "Female", reader.GetInt16("total"));
+                var gender = reader.GetString("Gender").ToString();
+                dt.Rows.Add(gender == "M" ? "Male" : gender == "L" ? "Male" : "Female", reader.GetInt16("total"));
             }
             connection.Close();
 
@@ -123,7 +124,7 @@ namespace FinalProjectDB
             MySqlCommand cmd = connection.CreateCommand();
             cmd.CommandText = "select if(year(now())-year(DOB) < 20, 'Under 20', " +
                                         "if(year(now()) - year(DOB) <= 30, '20 - 30', " +
-                                        "if(year(now()) - year(DOB) <= 40, '31 - 40',''))) as category, " +
+                                        "if(year(now()) - year(DOB) <= 40, '31 - 40','Above 40'))) as category, " +
                                         "count(*) 'total' " +
                             "from Employee group by category";
             MySqlDataReader reader = cmd.ExecuteReader();

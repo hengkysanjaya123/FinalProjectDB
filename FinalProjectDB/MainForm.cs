@@ -79,6 +79,18 @@ namespace FinalProjectDB
         {
             OpenForm(new EmployeeEntryEmailData());
         }
+        private void registerEmployeeAddressDataToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            OpenForm(new EmployeeEntryAddressData());
+        }
+        private void registerEmployeeEducationDataToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            OpenForm(new EmployeeEntryEducationData());
+        }
+        private void registerEmployeeJobHistoryDataToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            OpenForm(new EmployeeEntryJobHistoryData());
+        }
 
 
         private void employeeDetailToolStripMenuItem_Click(object sender, EventArgs e)

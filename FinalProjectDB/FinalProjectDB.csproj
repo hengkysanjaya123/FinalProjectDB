@@ -108,6 +108,18 @@
     <Compile Include="DepartmentForm.Designer.cs">
       <DependentUpon>DepartmentForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="EmployeeEntryAddressData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EmployeeEntryAddressData.Designer.cs">
+      <DependentUpon>EmployeeEntryAddressData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EmployeeEntryEducationData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EmployeeEntryEducationData.Designer.cs">
+      <DependentUpon>EmployeeEntryEducationData.cs</DependentUpon>
+    </Compile>
     <Compile Include="EmployeeEntryEmailData.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -119,6 +131,12 @@
     </Compile>
     <Compile Include="EmployeeEntryFamilyData.Designer.cs">
       <DependentUpon>EmployeeEntryFamilyData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EmployeeEntryJobHistoryData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EmployeeEntryJobHistoryData.Designer.cs">
+      <DependentUpon>EmployeeEntryJobHistoryData.cs</DependentUpon>
     </Compile>
     <Compile Include="EmployeeEntryPhoneData.cs">
       <SubType>Form</SubType>
@@ -211,11 +229,20 @@
     <EmbeddedResource Include="DepartmentForm.resx">
       <DependentUpon>DepartmentForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="EmployeeEntryAddressData.resx">
+      <DependentUpon>EmployeeEntryAddressData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmployeeEntryEducationData.resx">
+      <DependentUpon>EmployeeEntryEducationData.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="EmployeeEntryEmailData.resx">
       <DependentUpon>EmployeeEntryEmailData.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="EmployeeEntryFamilyData.resx">
       <DependentUpon>EmployeeEntryFamilyData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmployeeEntryJobHistoryData.resx">
+      <DependentUpon>EmployeeEntryJobHistoryData.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="EmployeeEntryPhoneData.resx">
       <DependentUpon>EmployeeEntryPhoneData.cs</DependentUpon>
