@@ -67,11 +67,12 @@ namespace FinalProjectDB
             }
             try
             {
-
+                dateTimePicker1.Format = DateTimePickerFormat.Custom;
+                dateTimePicker1.CustomFormat = "yyyy";
                 string institution = textBox2.Text;
                 string educationlevel = comboBox2.SelectedItem.ToString();
                 var major = textBox5.Text;
-                var gradyear = textBox6.Text;
+                var gradyear = dateTimePicker1.Value;
                 var score = textBox7.Text;
 
                 var employee = (Employee)comboBox1.SelectedValue;
@@ -95,6 +96,7 @@ namespace FinalProjectDB
 
             var q = ef.RetrieveEmployeeEducation(employee.NIK);
             dataGridView2.DataSource = q;
+            dataGridView2.Columns["GraduationYear"].DefaultCellStyle.Format = "yyyy";
         }
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)

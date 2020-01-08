@@ -51,7 +51,7 @@ namespace FinalProjectDB.Models
                 MySqlConnection connection = conn.OpenConnection();
                 connection.Open();
                 MySqlCommand comd = connection.CreateCommand();
-                comd.CommandText = "INSERT INTO employeeeducation(NIK, EducationLevel, Institution, Najor, " +
+                comd.CommandText = "INSERT INTO employeeeducation(NIK, EducationLevel, Institution, Major, " +
                     "GraduationYear, Score) VALUES " +
                     "(@nik, @educationlevel, @institution, @major, @graduationyear, @score)";
                 comd.Parameters.AddWithValue("@nik", NIK);
