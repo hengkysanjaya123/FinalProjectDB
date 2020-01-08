@@ -55,6 +55,7 @@
             this.container.Controls.Add(this.label1);
             this.container.ForeColor = System.Drawing.Color.Black;
             this.container.Size = new System.Drawing.Size(744, 509);
+            this.container.Paint += new System.Windows.Forms.PaintEventHandler(this.container_Paint);
             // 
             // label1
             // 
@@ -114,12 +115,12 @@
             this.chart3.TabIndex = 3;
             this.chart3.Text = "chart1";
             // 
-            // ReportForm
+            // EmployeeReportForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(744, 509);
-            this.Name = "ReportForm";
+            this.Name = "EmployeeReportForm";
             this.Text = "Report Form";
             this.Load += new System.EventHandler(this.ReportForm_Load);
             this.container.ResumeLayout(false);

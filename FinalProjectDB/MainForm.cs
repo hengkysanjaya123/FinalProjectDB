@@ -71,6 +71,28 @@ namespace FinalProjectDB
             OpenForm(new EmployeeEntryFamilyData());
         }
 
+        private void registerEmployeePhoneDataToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            OpenForm(new EmployeeEntryPhoneData());
+        }
+        private void registerEmployeeEmailDataToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            OpenForm(new EmployeeEntryEmailData());
+        }
+        private void registerEmployeeAddressDataToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            OpenForm(new EmployeeEntryAddressData());
+        }
+        private void registerEmployeeEducationDataToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            OpenForm(new EmployeeEntryEducationData());
+        }
+        private void registerEmployeeJobHistoryDataToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            OpenForm(new EmployeeEntryJobHistoryData());
+        }
+
+
         private void employeeDetailToolStripMenuItem_Click(object sender, EventArgs e)
         {
             OpenForm(new EmployeeReportForm());
@@ -385,9 +407,24 @@ namespace FinalProjectDB
             }
         }
 
+        private void TransactionToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
         private void registerNewEmployeeToolStripMenuItem1_Click(object sender, EventArgs e)
         {
             OpenForm(new RegisterEmployeeForm());
+        }
+
+        private void registerNewEmployeeToolStripMenuItem1_Click_1(object sender, EventArgs e)
+        {
+            OpenForm(new RegisterNewEmployeeForm());
+        }
+
+        private void editTransactionToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            OpenForm(new EditTransactionForm());
         }
     }
 }

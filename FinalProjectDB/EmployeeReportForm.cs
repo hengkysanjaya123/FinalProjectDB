@@ -71,10 +71,9 @@ namespace FinalProjectDB
             chart2.Titles[0].Font = new Font("Microsoft Sans Serif", 9, FontStyle.Bold);
 
 
-
             chart2.Series.Clear();
 
-            Series s = chart2.Series.Add("");
+            Series s = chart2.Series.Add("Marital Status");
             s.XValueMember = "Marital Status";
             s.YValueMembers = "Total";
             s.ChartType = SeriesChartType.Column;
@@ -142,5 +141,9 @@ namespace FinalProjectDB
             chart3.DataSource = dt;
         }
 
+        private void container_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

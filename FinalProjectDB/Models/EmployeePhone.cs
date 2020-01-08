@@ -43,7 +43,7 @@ namespace FinalProjectDB.Models
                 connection.Open();
                 MySqlCommand comd = connection.CreateCommand();
                 comd.CommandText = "INSERT INTO employee_phones(NIK, PhoneNumber, PhoneType) VALUES " +
-                    "(@nik, @phonenumber, phonetype)";
+                    "(@nik, @phonenumber, @phonetype)";
                 comd.Parameters.AddWithValue("@nik", NIK);
                 comd.Parameters.AddWithValue("@phonenumber", phoneNumber);
                 comd.Parameters.AddWithValue("@phonetype", phoneType);

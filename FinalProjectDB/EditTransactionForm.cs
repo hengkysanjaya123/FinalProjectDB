@@ -31,6 +31,8 @@ namespace FinalProjectDB
             comboBox1.DisplayMember = "Display";
             comboBox1.ValueMember = "Value";
             comboBox1.DataSource = q;
+
+            formReady = true;
         }
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
@@ -52,7 +54,7 @@ namespace FinalProjectDB
             connection.Open();
             MySqlCommand cmd = connection.CreateCommand();
             cmd.CommandText = "SELECT * FROM transaction WHERE NIK = " + employee.NIK;
-            MySqlDataReader reader = cmd.ExecuteReader();
+            //MySqlDataReader reader = cmd.ExecuteReader();
             MySqlDataAdapter da = new MySqlDataAdapter(cmd);
             DataTable dt = new DataTable();
             da.Fill(dt);
