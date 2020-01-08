@@ -104,7 +104,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(683, 23);
             this.label1.TabIndex = 2;
-            this.label1.Text = "Register New Employee";
+            this.label1.Text = "Add Employee";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label2
@@ -375,7 +375,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(707, 466);
             this.Name = "RegisterNewEmployeeForm";
-            this.Text = "Register New Employee Form";
+            this.Text = "Add Employee Form";
             this.Load += new System.EventHandler(this.RegisterNewEmployeeForm_Load);
             this.container.ResumeLayout(false);
             this.container.PerformLayout();

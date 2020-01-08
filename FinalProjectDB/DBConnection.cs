@@ -19,7 +19,7 @@ namespace FinalProjectDB
         {
             string connectionString;
             connectionString = "SERVER=" + server + ";" + "DATABASE=" +
-            database + ";" + "UID=" + uid + ";" + "PASSWORD=" + password + ";";
+            database + ";" + "UID=" + uid + ";" + "PASSWORD=" + password + ";ConvertZeroDateTime=True ";
             try
             {
                 MySqlConnection connection = new MySqlConnection(connectionString);

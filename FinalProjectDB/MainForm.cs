@@ -384,5 +384,10 @@ namespace FinalProjectDB
                 MessageBox.Show(ex.Message);
             }
         }
+
+        private void registerNewEmployeeToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            OpenForm(new RegisterEmployeeForm());
+        }
     }
 }

@@ -99,7 +99,7 @@
             // 
             this.registerNewEmployeeToolStripMenuItem.Name = "registerNewEmployeeToolStripMenuItem";
             this.registerNewEmployeeToolStripMenuItem.Size = new System.Drawing.Size(221, 22);
-            this.registerNewEmployeeToolStripMenuItem.Text = "Register new Employee";
+            this.registerNewEmployeeToolStripMenuItem.Text = "Add Employee";
             this.registerNewEmployeeToolStripMenuItem.Click += new System.EventHandler(this.registerNewEmployeeToolStripMenuItem_Click);
             // 
             // registerEmployeeFamilyDataToolStripMenuItem
@@ -127,55 +127,55 @@
             // bankToolStripMenuItem
             // 
             this.bankToolStripMenuItem.Name = "bankToolStripMenuItem";
-            this.bankToolStripMenuItem.Size = new System.Drawing.Size(161, 22);
+            this.bankToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.bankToolStripMenuItem.Text = "Bank";
             this.bankToolStripMenuItem.Click += new System.EventHandler(this.bankToolStripMenuItem_Click);
             // 
             // branchToolStripMenuItem
             // 
             this.branchToolStripMenuItem.Name = "branchToolStripMenuItem";
-            this.branchToolStripMenuItem.Size = new System.Drawing.Size(161, 22);
+            this.branchToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.branchToolStripMenuItem.Text = "Branch";
             this.branchToolStripMenuItem.Click += new System.EventHandler(this.branchToolStripMenuItem_Click);
             // 
             // contractTypeToolStripMenuItem
             // 
             this.contractTypeToolStripMenuItem.Name = "contractTypeToolStripMenuItem";
-            this.contractTypeToolStripMenuItem.Size = new System.Drawing.Size(161, 22);
+            this.contractTypeToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.contractTypeToolStripMenuItem.Text = "Contract Type";
             this.contractTypeToolStripMenuItem.Click += new System.EventHandler(this.contractTypeToolStripMenuItem_Click);
             // 
             // departmentToolStripMenuItem
             // 
             this.departmentToolStripMenuItem.Name = "departmentToolStripMenuItem";
-            this.departmentToolStripMenuItem.Size = new System.Drawing.Size(161, 22);
+            this.departmentToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.departmentToolStripMenuItem.Text = "Department";
             this.departmentToolStripMenuItem.Click += new System.EventHandler(this.departmentToolStripMenuItem_Click);
             // 
             // employeeToolStripMenuItem
             // 
             this.employeeToolStripMenuItem.Name = "employeeToolStripMenuItem";
-            this.employeeToolStripMenuItem.Size = new System.Drawing.Size(161, 22);
+            this.employeeToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.employeeToolStripMenuItem.Text = "Employee";
             // 
             // levelToolStripMenuItem
             // 
             this.levelToolStripMenuItem.Name = "levelToolStripMenuItem";
-            this.levelToolStripMenuItem.Size = new System.Drawing.Size(161, 22);
+            this.levelToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.levelToolStripMenuItem.Text = "Level";
             this.levelToolStripMenuItem.Click += new System.EventHandler(this.levelToolStripMenuItem_Click);
             // 
             // posToolStripMenuItem
             // 
             this.posToolStripMenuItem.Name = "posToolStripMenuItem";
-            this.posToolStripMenuItem.Size = new System.Drawing.Size(161, 22);
+            this.posToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.posToolStripMenuItem.Text = "Position";
             this.posToolStripMenuItem.Click += new System.EventHandler(this.posToolStripMenuItem_Click);
             // 
             // transactionTypeToolStripMenuItem
             // 
             this.transactionTypeToolStripMenuItem.Name = "transactionTypeToolStripMenuItem";
-            this.transactionTypeToolStripMenuItem.Size = new System.Drawing.Size(161, 22);
+            this.transactionTypeToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.transactionTypeToolStripMenuItem.Text = "Transaction Type";
             this.transactionTypeToolStripMenuItem.Click += new System.EventHandler(this.transactionTypeToolStripMenuItem_Click);
             // 
@@ -220,49 +220,49 @@
             // importPositionToolStripMenuItem
             // 
             this.importPositionToolStripMenuItem.Name = "importPositionToolStripMenuItem";
-            this.importPositionToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.importPositionToolStripMenuItem.Size = new System.Drawing.Size(161, 22);
             this.importPositionToolStripMenuItem.Text = "Position";
             this.importPositionToolStripMenuItem.Click += new System.EventHandler(this.importPositionToolStripMenuItem_Click);
             // 
             // contractTypeToolStripMenuItem1
             // 
             this.contractTypeToolStripMenuItem1.Name = "contractTypeToolStripMenuItem1";
-            this.contractTypeToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.contractTypeToolStripMenuItem1.Size = new System.Drawing.Size(161, 22);
             this.contractTypeToolStripMenuItem1.Text = "Contract Type";
             this.contractTypeToolStripMenuItem1.Click += new System.EventHandler(this.contractTypeToolStripMenuItem1_Click);
             // 
             // branchToolStripMenuItem1
             // 
             this.branchToolStripMenuItem1.Name = "branchToolStripMenuItem1";
-            this.branchToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.branchToolStripMenuItem1.Size = new System.Drawing.Size(161, 22);
             this.branchToolStripMenuItem1.Text = "Branch";
             this.branchToolStripMenuItem1.Click += new System.EventHandler(this.branchToolStripMenuItem1_Click);
             // 
             // bankToolStripMenuItem1
             // 
             this.bankToolStripMenuItem1.Name = "bankToolStripMenuItem1";
-            this.bankToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.bankToolStripMenuItem1.Size = new System.Drawing.Size(161, 22);
             this.bankToolStripMenuItem1.Text = "Bank";
             this.bankToolStripMenuItem1.Click += new System.EventHandler(this.bankToolStripMenuItem1_Click);
             // 
             // levelToolStripMenuItem1
             // 
             this.levelToolStripMenuItem1.Name = "levelToolStripMenuItem1";
-            this.levelToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.levelToolStripMenuItem1.Size = new System.Drawing.Size(161, 22);
             this.levelToolStripMenuItem1.Text = "Level";
             this.levelToolStripMenuItem1.Click += new System.EventHandler(this.levelToolStripMenuItem1_Click);
             // 
             // transactionTypeToolStripMenuItem1
             // 
             this.transactionTypeToolStripMenuItem1.Name = "transactionTypeToolStripMenuItem1";
-            this.transactionTypeToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.transactionTypeToolStripMenuItem1.Size = new System.Drawing.Size(161, 22);
             this.transactionTypeToolStripMenuItem1.Text = "Transaction Type";
             this.transactionTypeToolStripMenuItem1.Click += new System.EventHandler(this.transactionTypeToolStripMenuItem1_Click);
             // 
             // departmentToolStripMenuItem1
             // 
             this.departmentToolStripMenuItem1.Name = "departmentToolStripMenuItem1";
-            this.departmentToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.departmentToolStripMenuItem1.Size = new System.Drawing.Size(161, 22);
             this.departmentToolStripMenuItem1.Text = "Department";
             this.departmentToolStripMenuItem1.Click += new System.EventHandler(this.departmentToolStripMenuItem1_Click);
             // 

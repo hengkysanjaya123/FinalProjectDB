@@ -253,3 +253,5 @@ D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB
 D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\obj\Debug\FinalProjectDB.EmployeeReportForm.resources
 D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\obj\Debug\FinalProjectDB.TransactionFormReport.resources
 D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\obj\Debug\FinalProjectDB.LoginForm.resources
+D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\obj\Debug\FinalProjectDB.RegisterEmployeeForm.resources
+D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\obj\Debug\FinalProjectDB.EditTransactionForm.resources
