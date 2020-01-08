@@ -126,6 +126,12 @@
     <Compile Include="EmployeeEntryEmailData.Designer.cs">
       <DependentUpon>EmployeeEntryEmailData.cs</DependentUpon>
     </Compile>
+    <Compile Include="EditTransactionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditTransactionForm.Designer.cs">
+      <DependentUpon>EditTransactionForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="EmployeeEntryFamilyData.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -193,6 +199,12 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Models\TransactionType.cs" />
+    <Compile Include="RegisterEmployeeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RegisterEmployeeForm.Designer.cs">
+      <DependentUpon>RegisterEmployeeForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="RegisterNewEmployeeForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -238,6 +250,9 @@
     <EmbeddedResource Include="EmployeeEntryEmailData.resx">
       <DependentUpon>EmployeeEntryEmailData.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="EditTransactionForm.resx">
+      <DependentUpon>EditTransactionForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="EmployeeEntryFamilyData.resx">
       <DependentUpon>EmployeeEntryFamilyData.cs</DependentUpon>
     </EmbeddedResource>
@@ -263,6 +278,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="RegisterEmployeeForm.resx">
+      <DependentUpon>RegisterEmployeeForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="RegisterNewEmployeeForm.resx">
       <DependentUpon>RegisterNewEmployeeForm.cs</DependentUpon>
     </EmbeddedResource>

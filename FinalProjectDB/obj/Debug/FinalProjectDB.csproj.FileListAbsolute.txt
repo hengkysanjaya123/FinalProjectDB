@@ -261,3 +261,10 @@ C:\Users\Ryan\Desktop\Ryan's Folder\Binus International\Semester 3\Database Syst
 C:\Users\Ryan\Desktop\Ryan's Folder\Binus International\Semester 3\Database System\DB Lec Final Project\FinalProjectDB\FinalProjectDB\obj\Debug\FinalProjectDB.EmployeeEntryAddressData.resources
 C:\Users\Ryan\Desktop\Ryan's Folder\Binus International\Semester 3\Database System\DB Lec Final Project\FinalProjectDB\FinalProjectDB\obj\Debug\FinalProjectDB.EmployeeEntryEducationData.resources
 C:\Users\Ryan\Desktop\Ryan's Folder\Binus International\Semester 3\Database System\DB Lec Final Project\FinalProjectDB\FinalProjectDB\obj\Debug\FinalProjectDB.EmployeeEntryJobHistoryData.resources
+D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\obj\Debug\FinalProjectDB.EmployeeEntryAddressData.resources
+D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\obj\Debug\FinalProjectDB.EmployeeEntryEducationData.resources
+D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\obj\Debug\FinalProjectDB.EmployeeEntryEmailData.resources
+D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\obj\Debug\FinalProjectDB.EditTransactionForm.resources
+D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\obj\Debug\FinalProjectDB.EmployeeEntryJobHistoryData.resources
+D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\obj\Debug\FinalProjectDB.EmployeeEntryPhoneData.resources
+D:\Hengky_Sanjaya\#_Kuliah\Sems_3\Database Systems\FinalProjectDB\FinalProjectDB\obj\Debug\FinalProjectDB.RegisterEmployeeForm.resources

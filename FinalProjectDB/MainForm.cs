@@ -411,5 +411,20 @@ namespace FinalProjectDB
         {
 
         }
+
+        private void registerNewEmployeeToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            OpenForm(new RegisterEmployeeForm());
+        }
+
+        private void registerNewEmployeeToolStripMenuItem1_Click_1(object sender, EventArgs e)
+        {
+            OpenForm(new RegisterNewEmployeeForm());
+        }
+
+        private void editTransactionToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            OpenForm(new EditTransactionForm());
+        }
     }
 }

@@ -39,7 +39,7 @@
             this.container.Controls.Add(this.label3);
             this.container.Controls.Add(this.dataGridView1);
             this.container.ForeColor = System.Drawing.Color.Black;
-            this.container.Size = new System.Drawing.Size(718, 382);
+            this.container.Size = new System.Drawing.Size(1037, 337);
             // 
             // dataGridView1
             // 
@@ -49,7 +49,7 @@
             this.dataGridView1.Location = new System.Drawing.Point(12, 60);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
-            this.dataGridView1.Size = new System.Drawing.Size(694, 306);
+            this.dataGridView1.Size = new System.Drawing.Size(1013, 264);
             this.dataGridView1.TabIndex = 0;
             // 
             // label3
@@ -57,7 +57,7 @@
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(12, 19);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(694, 23);
+            this.label3.Size = new System.Drawing.Size(1013, 23);
             this.label3.TabIndex = 3;
             this.label3.Text = "Employee Recap Data";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -66,7 +66,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(718, 382);
+            this.ClientSize = new System.Drawing.Size(1037, 337);
             this.Name = "TransactionFormReport";
             this.Text = "Transaction Form Report";
             this.Load += new System.EventHandler(this.TransactionFormReport_Load);
